@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 97ae521bdc50a8c4f9e7237cc032527b
+timeCreated: 1479303117
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 3
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 0
+  fontNames:
+  - Comic 2
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a06f3ca4d6d269e4098792902e4b63dd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

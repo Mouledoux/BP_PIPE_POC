@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 615c7fff6f6104149943d410aaea7d5c
+labels:
+- highlight
+- interaction
+- mouse
+- center
+- view
+- cursor
+- screen
+- label
+- tooltip
+- text
+- over
+- hover
+- object
+- ui
+- interface
+timeCreated: 1433945812
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

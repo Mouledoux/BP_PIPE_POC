@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 9de9808f107e54446950e41662702b66
+guid: 899adc08b54e60b4bba828aee594c612
 TextureImporter:
   fileIDToRecycleName:
-    21300000: selection-cursors_0
-    21300002: selection-cursors_1
-    21300004: selection-cursors_2
-    21300006: selection-cursors_3
-    21300008: selection-cursors_4
-    21300010: selection-cursors_5
-    21300012: selection-cursors_6
-    21300014: selection-cursors_7
-    21300016: selection-cursors_8
+    21300000: generic-cursor_0
+    21300002: generic-cursor_1
+    21300004: generic-cursor_2
+    21300006: generic-cursor_3
+    21300008: generic-cursor_4
+    21300010: generic-cursor_5
+    21300012: generic-cursor_6
+    21300014: generic-cursor_7
+    21300016: generic-cursor_8
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -29,7 +29,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -41,7 +41,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -104,132 +104,92 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: selection-cursors_0
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 406
-        width: 103
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6841d6b2e0224e642940e0102ec82e0e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_1
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 406
-        width: 96
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e67508832f5c9a469fcbf3c81a028fb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_2
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 420
-        width: 128
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ec2d0a8520648d40aaf68ca371db683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_3
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 218
-        width: 108
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70b9ff7e8695dd043bf77ed2d682a45b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_4
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 218
-        width: 96
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38ec3322265bd3f4fab669dc84e1b20e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_5
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 218
-        width: 82
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af8b033a2c72b89498e479429f100bb9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: selection-cursors_6
+      name: generic-cursor_0
       rect:
         serializedVersion: 2
         x: 43
-        y: 28
-        width: 117
+        y: 406
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedd9def28b5e774ea884435fac17f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 406
+        width: 76
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c18d90cf2bdcb4f8fc9124bd0897b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 406
+        width: 114
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d138db137fb1f4cba832829f4bc940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 218
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f864d304e3049e544aa1e9697bead085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 216
+        width: 128
         height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -238,18 +198,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 491b778bf14a5654d8018a07a97c1bd3
+      spriteID: ecbafce4d85c22a4d813589d0d7bf2f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: selection-cursors_7
+      name: generic-cursor_5
       rect:
         serializedVersion: 2
-        x: 249
-        y: 30
-        width: 103
+        x: 448
+        y: 218
+        width: 104
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,18 +218,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38a08e58d8e94c043a2d859bae661f58
+      spriteID: 31662535c7743ce448889be0362b67db
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: selection-cursors_8
+      name: generic-cursor_6
       rect:
         serializedVersion: 2
-        x: 452
+        x: 57
         y: 30
-        width: 96
+        width: 86
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,7 +238,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca91f3a0b95ca704b8daf0ac19efaac4
+      spriteID: 48ac5c04fdf9a3b4c89958f2e54ce8ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 28
+        width: 110
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73a215b7ecd6c428551d6a2772ebfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: generic-cursor_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e840b094d984d42a0bca560c57e189
       vertices: []
       indices: 
       edges: []
@@ -286,7 +286,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 08b4667b2d626cd49af6d57364353ea3
+    spriteID: 8b7ac2b3c3b394d439f640baf1e193bc
     vertices: []
     indices: 
     edges: []

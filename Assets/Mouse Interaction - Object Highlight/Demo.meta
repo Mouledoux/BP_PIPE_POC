@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: c7ba0b75ed51c9d4d9fb6aecc68e12bb
+labels:
+- highlight
+- interaction
+- mouse
+- center
+- view
+- cursor
+- screen
+- tooltip
+- label
+- text
+- over
+- hover
+- object
+- ui
+- interface
+folderAsset: yes
+timeCreated: 1433863519
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
