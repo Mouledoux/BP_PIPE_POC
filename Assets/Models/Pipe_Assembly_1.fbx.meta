@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: 9e43a3ae7758d6d4b9de6f024f450557
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bend_pipe_01_45
+    100002: bend_pipe_01_46
+    100004: bend_pipe_01_47
+    100006: bend_pipe_01_48
+    100008: bend_pipe_01_49
+    100010: bend_pipe_01_50
+    100012: bend_pipe_01_51
+    100014: bend_pipe_01_52
+    100016: bend_pipe_01_53
+    100018: bend_pipe_01_geo
+    100020: bend_pipe_01_geo 1
+    100022: bend_pipe_01_geo 2
+    100024: bend_pipe_01_geo 3
+    100026: bend_pipe_01_geo 4
+    100028: bend_pipe_01_geo 5
+    100030: bend_pipe_01_geo 6
+    100032: bend_pipe_01_geo 7
+    100034: bend_pipe_01_geo 8
+    100036: bend_pipe_01_geo44
+    100038: bend_pipe_01_geo45
+    100040: bend_pipe_01_grp45_screw_03_geo
+    100042: bend_pipe_01_grp46_screw_03_geo
+    100044: bend_pipe_01_grp47_screw_03_geo
+    100046: bend_pipe_01_grp48_screw_03_geo
+    100048: bend_pipe_01_grp49_screw_03_geo
+    100050: bend_pipe_01_grp50_screw_03_geo
+    100052: bend_pipe_01_grp51_screw_03_geo
+    100054: bend_pipe_01_grp52_screw_03_geo
+    100056: bend_pipe_01_grp53_screw_03_geo
+    100058: bend_pipe_04_geo1
+    100060: bend_pipe_04_geo2
+    100062: bend_pipe_04_geo3
+    100064: cross_pipe_02_24
+    100066: cross_pipe_02_25
+    100068: cross_pipe_02_26
+    100070: cross_pipe_02_27
+    100072: cross_pipe_02_28
+    100074: cross_pipe_02_29
+    100076: cross_pipe_02_30
+    100078: cross_pipe_02_31
+    100080: cross_pipe_02_32
+    100082: cross_pipe_02_geo
+    100084: cross_pipe_02_geo 1
+    100086: cross_pipe_02_geo 2
+    100088: cross_pipe_02_geo 3
+    100090: cross_pipe_02_geo 4
+    100092: cross_pipe_02_geo 5
+    100094: cross_pipe_02_geo 6
+    100096: cross_pipe_02_geo 7
+    100098: cross_pipe_02_geo 8
+    100100: cross_pipe_02_geo4
+    100102: cross_pipe_02_geo5
+    100104: cross_pipe_02_geo6
+    100106: cross_pipe_02_geo7
+    100108: cross_pipe_02_geo8
+    100110: cross_pipe_02_geo9
+    100112: cross_pipe_02_grp24_screw_37_geo
+    100114: cross_pipe_02_grp25_screw_37_geo
+    100116: cross_pipe_02_grp26_screw_37_geo
+    100118: cross_pipe_02_grp27_screw_37_geo
+    100120: cross_pipe_02_grp28_screw_36_geo
+    100122: cross_pipe_02_grp29_screw_37_geo
+    100124: cross_pipe_02_grp30_screw_37_geo
+    100126: cross_pipe_02_grp31_screw_37_geo
+    100128: cross_pipe_02_grp32_screw_37_geo
+    100130: cross_pipe_04
+    100132: cross_pipe_04_3
+    100134: cross_pipe_04_geo
+    100136: cross_pipe_04_geo 1
+    100138: cross_pipe_04_grp3_screw_41_geo
+    100140: pipe_03_geo3
+    100142: pipe_03_geo4
+    100144: pipe_03_geo5
+    100146: pipe_03_geo6
+    100148: pipe_04_11
+    100150: pipe_04_13
+    100152: pipe_04_14
+    100154: pipe_04_15
+    100156: pipe_04_16
+    100158: pipe_04_17
+    100160: pipe_04_18
+    100162: pipe_04_20
+    100164: pipe_04_21
+    100166: pipe_04_22
+    100168: pipe_04_geo
+    100170: pipe_04_geo 1
+    100172: pipe_04_geo 2
+    100174: pipe_04_geo 3
+    100176: pipe_04_geo 4
+    100178: pipe_04_geo 5
+    100180: pipe_04_geo 6
+    100182: pipe_04_geo 7
+    100184: pipe_04_geo 8
+    100186: pipe_04_geo 9
+    100188: pipe_04_geo001
+    100190: pipe_04_grp11_screw_10_geo
+    100192: pipe_04_grp13_screw_10_geo
+    100194: pipe_04_grp14_screw_11_geo
+    100196: pipe_04_grp15_screw_10_geo
+    100198: pipe_04_grp16_screw_11_geo
+    100200: pipe_04_grp17_screw_11_geo
+    100202: pipe_04_grp18_screw_11_geo
+    100204: pipe_04_grp18_screw_11_geo001
+    100206: pipe_04_grp20_screw_11_geo
+    100208: pipe_04_grp21_screw_11_geo
+    100210: pipe_04_grp22_screw_10_geo
+    100212: pipe_10_geo7
+    100214: pipe_10_geo8
+    100216: //RootNode
+    100218: PIPES_ALL_GRP
+    100220: Pipes_ground_01_GRP
+    100222: Pipes_ground_01_GRP_cross_pipe_04_grp_screw_41_geo
+    100224: ring_09_24
+    100226: ring_09_25
+    100228: ring_10_geo
+    100230: ring_10_geo 1
+    100232: screw_02_geo
+    100234: screw_02_geo 1
+    100236: screw_10_geo
+    100238: screw_10_geo 1
+    100240: tank_02
+    100242: tank_02_01_geo
+    100244: tank_02_02_geo
+    100246: tank_02_03_geo
+    100248: tank_04
+    100250: tank_04_01_geo
+    100252: tank_04_02_geo
+    100254: tank_04_03_geo
+    100256: tank_05
+    100258: tank_05_01_geo
+    100260: tank_05_01_geo 1
+    100262: tank_05_02_geo
+    100264: tank_05_02_geo 1
+    100266: tank_05_03_geo
+    100268: tank_05_03_geo 1
+    100270: tank_05_2
+    100272: tap_02_1
+    100274: tap_02_2
+    100276: tap_02_geo
+    100278: tap_02_geo 1
+    100280: thin_pipes
+    100282: tube_pipe_01_18
+    100284: tube_pipe_01_19
+    100286: tube_pipe_01_20
+    100288: tube_pipe_01_21
+    100290: tube_pipe_01_22
+    100292: tube_pipe_01_23
+    100294: tube_pipe_01_24
+    100296: tube_pipe_01_25
+    100298: tube_pipe_01_26
+    100300: tube_pipe_01_27
+    100302: tube_pipe_01_geo
+    100304: tube_pipe_01_geo 1
+    100306: tube_pipe_01_geo 2
+    100308: tube_pipe_01_geo 3
+    100310: tube_pipe_01_geo 4
+    100312: tube_pipe_01_geo 5
+    100314: tube_pipe_01_geo 6
+    100316: tube_pipe_01_geo 7
+    100318: tube_pipe_01_geo 8
+    100320: tube_pipe_01_geo 9
+    100322: tube_pipe_01_grp18_screw_47_geo
+    100324: tube_pipe_01_grp19_screw_47_geo
+    100326: tube_pipe_01_grp20_screw_47_geo
+    100328: tube_pipe_01_grp21_screw_47_geo
+    100330: tube_pipe_01_grp22_screw_47_geo
+    100332: tube_pipe_01_grp23_screw_47_geo
+    100334: tube_pipe_01_grp24_screw_46_geo
+    100336: tube_pipe_01_grp25_screw_47_geo
+    100338: tube_pipe_01_grp26_screw_47_geo
+    100340: tube_pipe_01_grp27_screw_47_geo
+    100342: valve_01
+    100344: valve_01_01_geo
+    100346: valve_01_01_geo 1
+    100348: valve_01_01_geo 2
+    100350: valve_01_01_geo 3
+    100352: valve_01_01_geo 4
+    100354: valve_01_01_geo 5
+    100356: valve_01_01_geo 6
+    100358: valve_01_02_geo
+    100360: valve_01_02_geo 1
+    100362: valve_01_02_geo 2
+    100364: valve_01_02_geo 3
+    100366: valve_01_02_geo 4
+    100368: valve_01_02_geo 5
+    100370: valve_01_02_geo 6
+    100372: valve_01_1
+    100374: valve_01_2
+    100376: valve_01_3
+    100378: valve_01_4
+    100380: valve_01_5
+    100382: valve_01_6
+    100384: valve_02_01_geo
+    100386: valve_02_02_geo
+    100388: valve_02_1
+    100390: valve_03_01_geo
+    100392: valve_03_01_geo 1
+    100394: valve_03_02_geo
+    100396: valve_03_02_geo 1
+    100398: valve_03_1
+    100400: valve_03_2
+    400000: bend_pipe_01_45
+    400002: bend_pipe_01_46
+    400004: bend_pipe_01_47
+    400006: bend_pipe_01_48
+    400008: bend_pipe_01_49
+    400010: bend_pipe_01_50
+    400012: bend_pipe_01_51
+    400014: bend_pipe_01_52
+    400016: bend_pipe_01_53
+    400018: bend_pipe_01_geo
+    400020: bend_pipe_01_geo 1
+    400022: bend_pipe_01_geo 2
+    400024: bend_pipe_01_geo 3
+    400026: bend_pipe_01_geo 4
+    400028: bend_pipe_01_geo 5
+    400030: bend_pipe_01_geo 6
+    400032: bend_pipe_01_geo 7
+    400034: bend_pipe_01_geo 8
+    400036: bend_pipe_01_geo44
+    400038: bend_pipe_01_geo45
+    400040: bend_pipe_01_grp45_screw_03_geo
+    400042: bend_pipe_01_grp46_screw_03_geo
+    400044: bend_pipe_01_grp47_screw_03_geo
+    400046: bend_pipe_01_grp48_screw_03_geo
+    400048: bend_pipe_01_grp49_screw_03_geo
+    400050: bend_pipe_01_grp50_screw_03_geo
+    400052: bend_pipe_01_grp51_screw_03_geo
+    400054: bend_pipe_01_grp52_screw_03_geo
+    400056: bend_pipe_01_grp53_screw_03_geo
+    400058: bend_pipe_04_geo1
+    400060: bend_pipe_04_geo2
+    400062: bend_pipe_04_geo3
+    400064: cross_pipe_02_24
+    400066: cross_pipe_02_25
+    400068: cross_pipe_02_26
+    400070: cross_pipe_02_27
+    400072: cross_pipe_02_28
+    400074: cross_pipe_02_29
+    400076: cross_pipe_02_30
+    400078: cross_pipe_02_31
+    400080: cross_pipe_02_32
+    400082: cross_pipe_02_geo
+    400084: cross_pipe_02_geo 1
+    400086: cross_pipe_02_geo 2
+    400088: cross_pipe_02_geo 3
+    400090: cross_pipe_02_geo 4
+    400092: cross_pipe_02_geo 5
+    400094: cross_pipe_02_geo 6
+    400096: cross_pipe_02_geo 7
+    400098: cross_pipe_02_geo 8
+    400100: cross_pipe_02_geo4
+    400102: cross_pipe_02_geo5
+    400104: cross_pipe_02_geo6
+    400106: cross_pipe_02_geo7
+    400108: cross_pipe_02_geo8
+    400110: cross_pipe_02_geo9
+    400112: cross_pipe_02_grp24_screw_37_geo
+    400114: cross_pipe_02_grp25_screw_37_geo
+    400116: cross_pipe_02_grp26_screw_37_geo
+    400118: cross_pipe_02_grp27_screw_37_geo
+    400120: cross_pipe_02_grp28_screw_36_geo
+    400122: cross_pipe_02_grp29_screw_37_geo
+    400124: cross_pipe_02_grp30_screw_37_geo
+    400126: cross_pipe_02_grp31_screw_37_geo
+    400128: cross_pipe_02_grp32_screw_37_geo
+    400130: cross_pipe_04
+    400132: cross_pipe_04_3
+    400134: cross_pipe_04_geo
+    400136: cross_pipe_04_geo 1
+    400138: cross_pipe_04_grp3_screw_41_geo
+    400140: pipe_03_geo3
+    400142: pipe_03_geo4
+    400144: pipe_03_geo5
+    400146: pipe_03_geo6
+    400148: pipe_04_11
+    400150: pipe_04_13
+    400152: pipe_04_14
+    400154: pipe_04_15
+    400156: pipe_04_16
+    400158: pipe_04_17
+    400160: pipe_04_18
+    400162: pipe_04_20
+    400164: pipe_04_21
+    400166: pipe_04_22
+    400168: pipe_04_geo
+    400170: pipe_04_geo 1
+    400172: pipe_04_geo 2
+    400174: pipe_04_geo 3
+    400176: pipe_04_geo 4
+    400178: pipe_04_geo 5
+    400180: pipe_04_geo 6
+    400182: pipe_04_geo 7
+    400184: pipe_04_geo 8
+    400186: pipe_04_geo 9
+    400188: pipe_04_geo001
+    400190: pipe_04_grp11_screw_10_geo
+    400192: pipe_04_grp13_screw_10_geo
+    400194: pipe_04_grp14_screw_11_geo
+    400196: pipe_04_grp15_screw_10_geo
+    400198: pipe_04_grp16_screw_11_geo
+    400200: pipe_04_grp17_screw_11_geo
+    400202: pipe_04_grp18_screw_11_geo
+    400204: pipe_04_grp18_screw_11_geo001
+    400206: pipe_04_grp20_screw_11_geo
+    400208: pipe_04_grp21_screw_11_geo
+    400210: pipe_04_grp22_screw_10_geo
+    400212: pipe_10_geo7
+    400214: pipe_10_geo8
+    400216: //RootNode
+    400218: PIPES_ALL_GRP
+    400220: Pipes_ground_01_GRP
+    400222: Pipes_ground_01_GRP_cross_pipe_04_grp_screw_41_geo
+    400224: ring_09_24
+    400226: ring_09_25
+    400228: ring_10_geo
+    400230: ring_10_geo 1
+    400232: screw_02_geo
+    400234: screw_02_geo 1
+    400236: screw_10_geo
+    400238: screw_10_geo 1
+    400240: tank_02
+    400242: tank_02_01_geo
+    400244: tank_02_02_geo
+    400246: tank_02_03_geo
+    400248: tank_04
+    400250: tank_04_01_geo
+    400252: tank_04_02_geo
+    400254: tank_04_03_geo
+    400256: tank_05
+    400258: tank_05_01_geo
+    400260: tank_05_01_geo 1
+    400262: tank_05_02_geo
+    400264: tank_05_02_geo 1
+    400266: tank_05_03_geo
+    400268: tank_05_03_geo 1
+    400270: tank_05_2
+    400272: tap_02_1
+    400274: tap_02_2
+    400276: tap_02_geo
+    400278: tap_02_geo 1
+    400280: thin_pipes
+    400282: tube_pipe_01_18
+    400284: tube_pipe_01_19
+    400286: tube_pipe_01_20
+    400288: tube_pipe_01_21
+    400290: tube_pipe_01_22
+    400292: tube_pipe_01_23
+    400294: tube_pipe_01_24
+    400296: tube_pipe_01_25
+    400298: tube_pipe_01_26
+    400300: tube_pipe_01_27
+    400302: tube_pipe_01_geo
+    400304: tube_pipe_01_geo 1
+    400306: tube_pipe_01_geo 2
+    400308: tube_pipe_01_geo 3
+    400310: tube_pipe_01_geo 4
+    400312: tube_pipe_01_geo 5
+    400314: tube_pipe_01_geo 6
+    400316: tube_pipe_01_geo 7
+    400318: tube_pipe_01_geo 8
+    400320: tube_pipe_01_geo 9
+    400322: tube_pipe_01_grp18_screw_47_geo
+    400324: tube_pipe_01_grp19_screw_47_geo
+    400326: tube_pipe_01_grp20_screw_47_geo
+    400328: tube_pipe_01_grp21_screw_47_geo
+    400330: tube_pipe_01_grp22_screw_47_geo
+    400332: tube_pipe_01_grp23_screw_47_geo
+    400334: tube_pipe_01_grp24_screw_46_geo
+    400336: tube_pipe_01_grp25_screw_47_geo
+    400338: tube_pipe_01_grp26_screw_47_geo
+    400340: tube_pipe_01_grp27_screw_47_geo
+    400342: valve_01
+    400344: valve_01_01_geo
+    400346: valve_01_01_geo 1
+    400348: valve_01_01_geo 2
+    400350: valve_01_01_geo 3
+    400352: valve_01_01_geo 4
+    400354: valve_01_01_geo 5
+    400356: valve_01_01_geo 6
+    400358: valve_01_02_geo
+    400360: valve_01_02_geo 1
+    400362: valve_01_02_geo 2
+    400364: valve_01_02_geo 3
+    400366: valve_01_02_geo 4
+    400368: valve_01_02_geo 5
+    400370: valve_01_02_geo 6
+    400372: valve_01_1
+    400374: valve_01_2
+    400376: valve_01_3
+    400378: valve_01_4
+    400380: valve_01_5
+    400382: valve_01_6
+    400384: valve_02_01_geo
+    400386: valve_02_02_geo
+    400388: valve_02_1
+    400390: valve_03_01_geo
+    400392: valve_03_01_geo 1
+    400394: valve_03_02_geo
+    400396: valve_03_02_geo 1
+    400398: valve_03_1
+    400400: valve_03_2
+    2100000: screw_mtl
+    2100002: pipe_mtl
+    2300000: bend_pipe_01_geo
+    2300002: bend_pipe_01_geo 1
+    2300004: bend_pipe_01_geo 2
+    2300006: bend_pipe_01_geo 3
+    2300008: bend_pipe_01_geo 4
+    2300010: bend_pipe_01_geo 5
+    2300012: bend_pipe_01_geo 6
+    2300014: bend_pipe_01_geo 7
+    2300016: bend_pipe_01_geo 8
+    2300018: bend_pipe_01_geo44
+    2300020: bend_pipe_01_geo45
+    2300022: bend_pipe_01_grp45_screw_03_geo
+    2300024: bend_pipe_01_grp46_screw_03_geo
+    2300026: bend_pipe_01_grp47_screw_03_geo
+    2300028: bend_pipe_01_grp48_screw_03_geo
+    2300030: bend_pipe_01_grp49_screw_03_geo
+    2300032: bend_pipe_01_grp50_screw_03_geo
+    2300034: bend_pipe_01_grp51_screw_03_geo
+    2300036: bend_pipe_01_grp52_screw_03_geo
+    2300038: bend_pipe_01_grp53_screw_03_geo
+    2300040: bend_pipe_04_geo1
+    2300042: bend_pipe_04_geo2
+    2300044: bend_pipe_04_geo3
+    2300046: cross_pipe_02_geo
+    2300048: cross_pipe_02_geo 1
+    2300050: cross_pipe_02_geo 2
+    2300052: cross_pipe_02_geo 3
+    2300054: cross_pipe_02_geo 4
+    2300056: cross_pipe_02_geo 5
+    2300058: cross_pipe_02_geo 6
+    2300060: cross_pipe_02_geo 7
+    2300062: cross_pipe_02_geo 8
+    2300064: cross_pipe_02_geo4
+    2300066: cross_pipe_02_geo5
+    2300068: cross_pipe_02_geo6
+    2300070: cross_pipe_02_geo7
+    2300072: cross_pipe_02_geo8
+    2300074: cross_pipe_02_geo9
+    2300076: cross_pipe_02_grp24_screw_37_geo
+    2300078: cross_pipe_02_grp25_screw_37_geo
+    2300080: cross_pipe_02_grp26_screw_37_geo
+    2300082: cross_pipe_02_grp27_screw_37_geo
+    2300084: cross_pipe_02_grp28_screw_36_geo
+    2300086: cross_pipe_02_grp29_screw_37_geo
+    2300088: cross_pipe_02_grp30_screw_37_geo
+    2300090: cross_pipe_02_grp31_screw_37_geo
+    2300092: cross_pipe_02_grp32_screw_37_geo
+    2300094: cross_pipe_04_geo
+    2300096: cross_pipe_04_geo 1
+    2300098: cross_pipe_04_grp3_screw_41_geo
+    2300100: pipe_03_geo3
+    2300102: pipe_03_geo4
+    2300104: pipe_03_geo5
+    2300106: pipe_03_geo6
+    2300108: pipe_04_geo
+    2300110: pipe_04_geo 1
+    2300112: pipe_04_geo 2
+    2300114: pipe_04_geo 3
+    2300116: pipe_04_geo 4
+    2300118: pipe_04_geo 5
+    2300120: pipe_04_geo 6
+    2300122: pipe_04_geo 7
+    2300124: pipe_04_geo 8
+    2300126: pipe_04_geo 9
+    2300128: pipe_04_geo001
+    2300130: pipe_04_grp11_screw_10_geo
+    2300132: pipe_04_grp13_screw_10_geo
+    2300134: pipe_04_grp14_screw_11_geo
+    2300136: pipe_04_grp15_screw_10_geo
+    2300138: pipe_04_grp16_screw_11_geo
+    2300140: pipe_04_grp17_screw_11_geo
+    2300142: pipe_04_grp18_screw_11_geo
+    2300144: pipe_04_grp18_screw_11_geo001
+    2300146: pipe_04_grp20_screw_11_geo
+    2300148: pipe_04_grp21_screw_11_geo
+    2300150: pipe_04_grp22_screw_10_geo
+    2300152: pipe_10_geo7
+    2300154: pipe_10_geo8
+    2300156: Pipes_ground_01_GRP_cross_pipe_04_grp_screw_41_geo
+    2300158: ring_10_geo
+    2300160: ring_10_geo 1
+    2300162: screw_02_geo
+    2300164: screw_02_geo 1
+    2300166: screw_10_geo
+    2300168: screw_10_geo 1
+    2300170: tank_02_01_geo
+    2300172: tank_02_02_geo
+    2300174: tank_02_03_geo
+    2300176: tank_04_01_geo
+    2300178: tank_04_02_geo
+    2300180: tank_04_03_geo
+    2300182: tank_05_01_geo
+    2300184: tank_05_01_geo 1
+    2300186: tank_05_02_geo
+    2300188: tank_05_02_geo 1
+    2300190: tank_05_03_geo
+    2300192: tank_05_03_geo 1
+    2300194: tap_02_geo
+    2300196: tap_02_geo 1
+    2300198: tube_pipe_01_geo
+    2300200: tube_pipe_01_geo 1
+    2300202: tube_pipe_01_geo 2
+    2300204: tube_pipe_01_geo 3
+    2300206: tube_pipe_01_geo 4
+    2300208: tube_pipe_01_geo 5
+    2300210: tube_pipe_01_geo 6
+    2300212: tube_pipe_01_geo 7
+    2300214: tube_pipe_01_geo 8
+    2300216: tube_pipe_01_geo 9
+    2300218: tube_pipe_01_grp18_screw_47_geo
+    2300220: tube_pipe_01_grp19_screw_47_geo
+    2300222: tube_pipe_01_grp20_screw_47_geo
+    2300224: tube_pipe_01_grp21_screw_47_geo
+    2300226: tube_pipe_01_grp22_screw_47_geo
+    2300228: tube_pipe_01_grp23_screw_47_geo
+    2300230: tube_pipe_01_grp24_screw_46_geo
+    2300232: tube_pipe_01_grp25_screw_47_geo
+    2300234: tube_pipe_01_grp26_screw_47_geo
+    2300236: tube_pipe_01_grp27_screw_47_geo
+    2300238: valve_01_01_geo
+    2300240: valve_01_01_geo 1
+    2300242: valve_01_01_geo 2
+    2300244: valve_01_01_geo 3
+    2300246: valve_01_01_geo 4
+    2300248: valve_01_01_geo 5
+    2300250: valve_01_01_geo 6
+    2300252: valve_01_02_geo
+    2300254: valve_01_02_geo 1
+    2300256: valve_01_02_geo 2
+    2300258: valve_01_02_geo 3
+    2300260: valve_01_02_geo 4
+    2300262: valve_01_02_geo 5
+    2300264: valve_01_02_geo 6
+    2300266: valve_02_01_geo
+    2300268: valve_02_02_geo
+    2300270: valve_03_01_geo
+    2300272: valve_03_01_geo 1
+    2300274: valve_03_02_geo
+    2300276: valve_03_02_geo 1
+    3300000: bend_pipe_01_geo
+    3300002: bend_pipe_01_geo 1
+    3300004: bend_pipe_01_geo 2
+    3300006: bend_pipe_01_geo 3
+    3300008: bend_pipe_01_geo 4
+    3300010: bend_pipe_01_geo 5
+    3300012: bend_pipe_01_geo 6
+    3300014: bend_pipe_01_geo 7
+    3300016: bend_pipe_01_geo 8
+    3300018: bend_pipe_01_geo44
+    3300020: bend_pipe_01_geo45
+    3300022: bend_pipe_01_grp45_screw_03_geo
+    3300024: bend_pipe_01_grp46_screw_03_geo
+    3300026: bend_pipe_01_grp47_screw_03_geo
+    3300028: bend_pipe_01_grp48_screw_03_geo
+    3300030: bend_pipe_01_grp49_screw_03_geo
+    3300032: bend_pipe_01_grp50_screw_03_geo
+    3300034: bend_pipe_01_grp51_screw_03_geo
+    3300036: bend_pipe_01_grp52_screw_03_geo
+    3300038: bend_pipe_01_grp53_screw_03_geo
+    3300040: bend_pipe_04_geo1
+    3300042: bend_pipe_04_geo2
+    3300044: bend_pipe_04_geo3
+    3300046: cross_pipe_02_geo
+    3300048: cross_pipe_02_geo 1
+    3300050: cross_pipe_02_geo 2
+    3300052: cross_pipe_02_geo 3
+    3300054: cross_pipe_02_geo 4
+    3300056: cross_pipe_02_geo 5
+    3300058: cross_pipe_02_geo 6
+    3300060: cross_pipe_02_geo 7
+    3300062: cross_pipe_02_geo 8
+    3300064: cross_pipe_02_geo4
+    3300066: cross_pipe_02_geo5
+    3300068: cross_pipe_02_geo6
+    3300070: cross_pipe_02_geo7
+    3300072: cross_pipe_02_geo8
+    3300074: cross_pipe_02_geo9
+    3300076: cross_pipe_02_grp24_screw_37_geo
+    3300078: cross_pipe_02_grp25_screw_37_geo
+    3300080: cross_pipe_02_grp26_screw_37_geo
+    3300082: cross_pipe_02_grp27_screw_37_geo
+    3300084: cross_pipe_02_grp28_screw_36_geo
+    3300086: cross_pipe_02_grp29_screw_37_geo
+    3300088: cross_pipe_02_grp30_screw_37_geo
+    3300090: cross_pipe_02_grp31_screw_37_geo
+    3300092: cross_pipe_02_grp32_screw_37_geo
+    3300094: cross_pipe_04_geo
+    3300096: cross_pipe_04_geo 1
+    3300098: cross_pipe_04_grp3_screw_41_geo
+    3300100: pipe_03_geo3
+    3300102: pipe_03_geo4
+    3300104: pipe_03_geo5
+    3300106: pipe_03_geo6
+    3300108: pipe_04_geo
+    3300110: pipe_04_geo 1
+    3300112: pipe_04_geo 2
+    3300114: pipe_04_geo 3
+    3300116: pipe_04_geo 4
+    3300118: pipe_04_geo 5
+    3300120: pipe_04_geo 6
+    3300122: pipe_04_geo 7
+    3300124: pipe_04_geo 8
+    3300126: pipe_04_geo 9
+    3300128: pipe_04_geo001
+    3300130: pipe_04_grp11_screw_10_geo
+    3300132: pipe_04_grp13_screw_10_geo
+    3300134: pipe_04_grp14_screw_11_geo
+    3300136: pipe_04_grp15_screw_10_geo
+    3300138: pipe_04_grp16_screw_11_geo
+    3300140: pipe_04_grp17_screw_11_geo
+    3300142: pipe_04_grp18_screw_11_geo
+    3300144: pipe_04_grp18_screw_11_geo001
+    3300146: pipe_04_grp20_screw_11_geo
+    3300148: pipe_04_grp21_screw_11_geo
+    3300150: pipe_04_grp22_screw_10_geo
+    3300152: pipe_10_geo7
+    3300154: pipe_10_geo8
+    3300156: Pipes_ground_01_GRP_cross_pipe_04_grp_screw_41_geo
+    3300158: ring_10_geo
+    3300160: ring_10_geo 1
+    3300162: screw_02_geo
+    3300164: screw_02_geo 1
+    3300166: screw_10_geo
+    3300168: screw_10_geo 1
+    3300170: tank_02_01_geo
+    3300172: tank_02_02_geo
+    3300174: tank_02_03_geo
+    3300176: tank_04_01_geo
+    3300178: tank_04_02_geo
+    3300180: tank_04_03_geo
+    3300182: tank_05_01_geo
+    3300184: tank_05_01_geo 1
+    3300186: tank_05_02_geo
+    3300188: tank_05_02_geo 1
+    3300190: tank_05_03_geo
+    3300192: tank_05_03_geo 1
+    3300194: tap_02_geo
+    3300196: tap_02_geo 1
+    3300198: tube_pipe_01_geo
+    3300200: tube_pipe_01_geo 1
+    3300202: tube_pipe_01_geo 2
+    3300204: tube_pipe_01_geo 3
+    3300206: tube_pipe_01_geo 4
+    3300208: tube_pipe_01_geo 5
+    3300210: tube_pipe_01_geo 6
+    3300212: tube_pipe_01_geo 7
+    3300214: tube_pipe_01_geo 8
+    3300216: tube_pipe_01_geo 9
+    3300218: tube_pipe_01_grp18_screw_47_geo
+    3300220: tube_pipe_01_grp19_screw_47_geo
+    3300222: tube_pipe_01_grp20_screw_47_geo
+    3300224: tube_pipe_01_grp21_screw_47_geo
+    3300226: tube_pipe_01_grp22_screw_47_geo
+    3300228: tube_pipe_01_grp23_screw_47_geo
+    3300230: tube_pipe_01_grp24_screw_46_geo
+    3300232: tube_pipe_01_grp25_screw_47_geo
+    3300234: tube_pipe_01_grp26_screw_47_geo
+    3300236: tube_pipe_01_grp27_screw_47_geo
+    3300238: valve_01_01_geo
+    3300240: valve_01_01_geo 1
+    3300242: valve_01_01_geo 2
+    3300244: valve_01_01_geo 3
+    3300246: valve_01_01_geo 4
+    3300248: valve_01_01_geo 5
+    3300250: valve_01_01_geo 6
+    3300252: valve_01_02_geo
+    3300254: valve_01_02_geo 1
+    3300256: valve_01_02_geo 2
+    3300258: valve_01_02_geo 3
+    3300260: valve_01_02_geo 4
+    3300262: valve_01_02_geo 5
+    3300264: valve_01_02_geo 6
+    3300266: valve_02_01_geo
+    3300268: valve_02_02_geo
+    3300270: valve_03_01_geo
+    3300272: valve_03_01_geo 1
+    3300274: valve_03_02_geo
+    3300276: valve_03_02_geo 1
+    4300000: pipe_04_grp11_screw_10_geo
+    4300002: pipe_04_geo
+    4300004: cross_pipe_04_geo
+    4300006: cross_pipe_04_grp3_screw_41_geo
+    4300008: pipe_04_grp13_screw_10_geo
+    4300010: pipe_04_geo
+    4300012: pipe_04_grp14_screw_11_geo
+    4300014: pipe_04_geo
+    4300016: cross_pipe_04_geo
+    4300018: Pipes_ground_01_GRP_cross_pipe_04_grp_screw_41_geo
+    4300020: pipe_04_grp15_screw_10_geo
+    4300022: pipe_04_geo
+    4300024: pipe_04_grp16_screw_11_geo
+    4300026: pipe_04_geo
+    4300028: cross_pipe_02_geo
+    4300030: cross_pipe_02_grp32_screw_37_geo
+    4300032: pipe_04_grp17_screw_11_geo
+    4300034: pipe_04_geo
+    4300036: pipe_04_grp18_screw_11_geo001
+    4300038: pipe_04_grp18_screw_11_geo
+    4300040: pipe_04_geo001
+    4300042: pipe_04_geo
+    4300044: cross_pipe_02_geo
+    4300046: cross_pipe_02_grp31_screw_37_geo
+    4300048: pipe_04_grp20_screw_11_geo
+    4300050: pipe_04_geo
+    4300052: pipe_04_grp21_screw_11_geo
+    4300054: pipe_04_geo
+    4300056: cross_pipe_02_geo
+    4300058: cross_pipe_02_grp30_screw_37_geo
+    4300060: pipe_04_grp22_screw_10_geo
+    4300062: pipe_04_geo
+    4300064: screw_10_geo
+    4300066: ring_10_geo
+    4300068: cross_pipe_02_geo
+    4300070: cross_pipe_02_grp29_screw_37_geo
+    4300072: screw_10_geo
+    4300074: ring_10_geo
+    4300076: tank_02_03_geo
+    4300078: tank_02_02_geo
+    4300080: tank_02_01_geo
+    4300082: cross_pipe_02_geo
+    4300084: cross_pipe_02_grp28_screw_36_geo
+    4300086: tank_04_03_geo
+    4300088: tank_04_02_geo
+    4300090: tank_04_01_geo
+    4300092: tank_05_03_geo
+    4300094: tank_05_02_geo
+    4300096: tank_05_01_geo
+    4300098: cross_pipe_02_geo
+    4300100: cross_pipe_02_grp27_screw_37_geo
+    4300102: tank_05_03_geo
+    4300104: tank_05_02_geo
+    4300106: tank_05_01_geo
+    4300108: tap_02_geo
+    4300110: screw_02_geo
+    4300112: cross_pipe_02_geo
+    4300114: cross_pipe_02_grp26_screw_37_geo
+    4300116: tap_02_geo
+    4300118: screw_02_geo
+    4300120: pipe_10_geo8
+    4300122: pipe_10_geo7
+    4300124: pipe_03_geo6
+    4300126: pipe_03_geo5
+    4300128: pipe_03_geo4
+    4300130: pipe_03_geo3
+    4300132: cross_pipe_02_geo9
+    4300134: cross_pipe_02_geo8
+    4300136: cross_pipe_02_geo7
+    4300138: cross_pipe_02_geo6
+    4300140: cross_pipe_02_geo5
+    4300142: cross_pipe_02_geo4
+    4300144: bend_pipe_04_geo3
+    4300146: bend_pipe_04_geo2
+    4300148: bend_pipe_04_geo1
+    4300150: bend_pipe_01_geo45
+    4300152: bend_pipe_01_geo44
+    4300154: cross_pipe_02_geo
+    4300156: cross_pipe_02_grp25_screw_37_geo
+    4300158: tube_pipe_01_grp18_screw_47_geo
+    4300160: tube_pipe_01_geo
+    4300162: tube_pipe_01_grp19_screw_47_geo
+    4300164: tube_pipe_01_geo
+    4300166: cross_pipe_02_geo
+    4300168: cross_pipe_02_grp24_screw_37_geo
+    4300170: tube_pipe_01_grp20_screw_47_geo
+    4300172: tube_pipe_01_geo
+    4300174: tube_pipe_01_grp21_screw_47_geo
+    4300176: tube_pipe_01_geo
+    4300178: bend_pipe_01_geo
+    4300180: bend_pipe_01_grp53_screw_03_geo
+    4300182: tube_pipe_01_grp22_screw_47_geo
+    4300184: tube_pipe_01_geo
+    4300186: tube_pipe_01_grp23_screw_47_geo
+    4300188: tube_pipe_01_geo
+    4300190: bend_pipe_01_geo
+    4300192: bend_pipe_01_grp52_screw_03_geo
+    4300194: tube_pipe_01_grp24_screw_46_geo
+    4300196: tube_pipe_01_geo
+    4300198: tube_pipe_01_grp25_screw_47_geo
+    4300200: tube_pipe_01_geo
+    4300202: bend_pipe_01_geo
+    4300204: bend_pipe_01_grp51_screw_03_geo
+    4300206: tube_pipe_01_grp26_screw_47_geo
+    4300208: tube_pipe_01_geo
+    4300210: tube_pipe_01_grp27_screw_47_geo
+    4300212: tube_pipe_01_geo
+    4300214: bend_pipe_01_geo
+    4300216: bend_pipe_01_grp50_screw_03_geo
+    4300218: valve_01_02_geo
+    4300220: valve_01_01_geo
+    4300222: valve_01_02_geo
+    4300224: valve_01_01_geo
+    4300226: bend_pipe_01_geo
+    4300228: bend_pipe_01_grp49_screw_03_geo
+    4300230: valve_01_02_geo
+    4300232: valve_01_01_geo
+    4300234: valve_01_02_geo
+    4300236: valve_01_01_geo
+    4300238: bend_pipe_01_geo
+    4300240: bend_pipe_01_grp48_screw_03_geo
+    4300242: valve_01_02_geo
+    4300244: valve_01_01_geo
+    4300246: valve_01_02_geo
+    4300248: valve_01_01_geo
+    4300250: bend_pipe_01_geo
+    4300252: bend_pipe_01_grp47_screw_03_geo
+    4300254: valve_01_02_geo
+    4300256: valve_01_01_geo
+    4300258: valve_02_02_geo
+    4300260: valve_02_01_geo
+    4300262: bend_pipe_01_geo
+    4300264: bend_pipe_01_grp46_screw_03_geo
+    4300266: valve_03_02_geo
+    4300268: valve_03_01_geo
+    4300270: valve_03_02_geo
+    4300272: valve_03_01_geo
+    4300274: bend_pipe_01_geo
+    4300276: bend_pipe_01_grp45_screw_03_geo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe_mtl
+    second: {fileID: 2100000, guid: c8872124223694440a35bfca33075797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screw_mtl
+    second: {fileID: 2100000, guid: b6c3f7ea5a125b440b1c3cd629432e82, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
