@@ -335,6 +335,16 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23920667438257026, guid: ed742dfbcc86f254494a02f67442321d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23009949163631854, guid: ed742dfbcc86f254494a02f67442321d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed742dfbcc86f254494a02f67442321d, type: 2}
   m_IsPrefabAsset: 0
@@ -354,6 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &22562186 stripped
 GameObject:
@@ -449,12 +460,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1424198320}
         m_MethodName: ScrubAnimation
-        m_Mode: 6
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -465,12 +476,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1424198320}
         m_MethodName: ScrubAnimation
-        m_Mode: 6
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: -1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -581,6 +592,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &124186901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1242103439829222, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &124186903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124186901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 0, a: 0}
+  isOpen: 1
+  connectedIntakePipes:
+  - {fileID: 1904800997}
 --- !u!1 &259340361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1913475440056460, guid: ed742dfbcc86f254494a02f67442321d,
@@ -612,6 +643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &318478517
 GameObject:
@@ -953,7 +985,7 @@ ParticleSystem:
   stopAction: 0
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -5505,7 +5537,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
+--- !u!1 &638771265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1531271751224184, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &638771267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 638771265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 0, a: 0}
+  isOpen: 1
+  connectedIntakePipes:
+  - {fileID: 1952829603}
+  - {fileID: 124186903}
 --- !u!1 &693300594
 GameObject:
   m_ObjectHideFlags: 0
@@ -5812,6 +5866,25 @@ Transform:
   m_Father: {fileID: 1551932863}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &858203746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1498123587996572, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &858203748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858203746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 1, a: 1}
+  isOpen: 1
+  connectedIntakePipes: []
 --- !u!1 &872319869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1613021227850288, guid: ed742dfbcc86f254494a02f67442321d,
@@ -5843,6 +5916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &877070775
 GameObject:
@@ -6037,6 +6111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &948835973
 GameObject:
@@ -6067,6 +6142,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1054952502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1985227910103944, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &1054952507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1054952502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3f198113727e543a12f3e7dfc12735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redValue: 1
+  greenValue: 0.6
+  blueValue: 0
+  alphaValue: 0
 --- !u!1 &1059497620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1864158810081998, guid: ed742dfbcc86f254494a02f67442321d,
@@ -6098,6 +6193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &1064699861
 GameObject:
@@ -6191,6 +6287,26 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1337100326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1577783173692216, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &1337100327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337100326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 0, a: 0}
+  isOpen: 1
+  connectedIntakePipes:
+  - {fileID: 858203748}
 --- !u!1 &1383814381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6340,6 +6456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0.5
   AnimationEvents:
   - m_PersistentCalls:
       m_Calls:
@@ -6402,6 +6519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &1551932862
 GameObject:
@@ -6546,7 +6664,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
+--- !u!1 &1904800996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1023412792640468, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &1904800997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1904800996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 1, g: 0, b: 0, a: 1}
+  isOpen: 1
+  connectedIntakePipes: []
 --- !u!1 &1913092213
 GameObject:
   m_ObjectHideFlags: 0
@@ -6628,6 +6766,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9d86e6c6b9ce74f9ab00b6c214035130,
     type: 2}
   m_PrefabInternal: {fileID: 1936911713}
+--- !u!1 &1952829602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1373102471710450, guid: ed742dfbcc86f254494a02f67442321d,
+    type: 2}
+  m_PrefabInternal: {fileID: 22562183}
+--- !u!114 &1952829603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952829602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 0, a: 0}
+  isOpen: 1
+  connectedIntakePipes:
+  - {fileID: 1337100327}
 --- !u!1 &1979212005
 GameObject:
   m_ObjectHideFlags: 0
@@ -6750,6 +6908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initStartPoint: 0
   AnimationEvents: []
 --- !u!1 &2115937953
 GameObject:

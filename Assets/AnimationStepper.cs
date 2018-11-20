@@ -5,29 +5,31 @@ using UnityEngine;
 [RequireComponent(typeof(Animation))]
 public class AnimationStepper : MonoBehaviour
 {
+    [Range(0, 1)]
+    public float initStartPoint;
+
     public List<UnityEngine.Events.UnityEvent> AnimationEvents = 
         new List<UnityEngine.Events.UnityEvent>();
 
-    private float _value;
-
-    public float value
+    private float _animTimeValue;
+    public float animTimeValue
     {
-        get { return _value; }
+        get { return _animTimeValue; }
 
         set
         {
-            float lastValue = _value;
-            _value = value;
-            _value = Mathf.Clamp01(_value);
+            float lastValue = animTimeValue;
+            _animTimeValue = value;
+            _animTimeValue = Mathf.Clamp01(_animTimeValue);
 
             foreach(AnimationEvent animEvent in animationState.clip.events)
             {
-                if ((lastValue >= animEvent.time && _value <= animEvent.time) ||
-                        (lastValue <= animEvent.time && _value >= animEvent.time))
+                if ((lastValue >= animEvent.time && _animTimeValue <= animEvent.time) ||
+                        (lastValue <= animEvent.time && _animTimeValue >= animEvent.time))
                     FireAnimationEvent(animEvent.intParameter);
             }
 
-            animationState.time = (_value * animLength);
+            animationState.time = (_animTimeValue * animLength);
         }
     }
 
@@ -47,17 +49,16 @@ public class AnimationStepper : MonoBehaviour
 
         animLength = animationState.length;
 
-        print(AnimationEvents.Count);
+        animTimeValue = initStartPoint;
     }
 
-    public void ScrubAnimation(bool forward)
+    public void ScrubAnimation(float speed)
     {
-        value += Time.deltaTime * (forward ? 1f : -1f);
+        animTimeValue += speed * Time.deltaTime;
     }
 
     public void FireAnimationEvent(int index)
     {
         AnimationEvents[index].Invoke();
-        print(index);
     }
 }
