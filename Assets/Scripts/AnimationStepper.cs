@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mouledoux.Components;
 
 [RequireComponent(typeof(Animation))]
 public class AnimationStepper : MonoBehaviour
@@ -19,8 +20,7 @@ public class AnimationStepper : MonoBehaviour
         set
         {
             float lastValue = animTimeValue;
-            _animTimeValue = value;
-            _animTimeValue = Mathf.Clamp01(_animTimeValue);
+            _animTimeValue = Mathf.Clamp01(value);
 
             foreach(AnimationEvent animEvent in animationState.clip.events)
             {
@@ -38,16 +38,24 @@ public class AnimationStepper : MonoBehaviour
 
     private float animLength;
 
+    private Mediator.Subscriptions subscriptions = new Mediator.Subscriptions();
+    public Mouledoux.Callback.Callback setAnimationScrubSpeed;
+
     void Awake ()
     {
         animation = GetComponent<Animation>();
-
         animation.playAutomatically = true;
-
         animationState = animation[animation.clip.name];
         animationState.speed = 0;
 
         animLength = animationState.length;
+
+        setAnimationScrubSpeed = ScrubAnimation;
+        subscriptions.Subscribe(gameObject.GetInstanceID().ToString() + "->setanimspeed", setAnimationScrubSpeed);
+    }
+
+    private void Start()
+    {
 
         animTimeValue = initStartPoint;
     }
@@ -57,8 +65,20 @@ public class AnimationStepper : MonoBehaviour
         animTimeValue += speed * Time.deltaTime;
     }
 
+    public void ScrubAnimation(Mouledoux.Callback.Packet packet)
+    {
+        ScrubAnimation(packet.floats[0]);
+    }
+
+    public void SetAnimationPosition(float position)
+    {
+        animTimeValue = position;
+    }
+
     public void FireAnimationEvent(int index)
     {
+        if (index >= AnimationEvents.Count) return;
+
         AnimationEvents[index].Invoke();
     }
 }
