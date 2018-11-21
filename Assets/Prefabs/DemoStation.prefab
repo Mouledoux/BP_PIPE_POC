@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 4350363620955702}
   - component: {fileID: 111589776101174426}
   - component: {fileID: 114492194213238264}
+  - component: {fileID: 114384475261982220}
   m_Layer: 0
   m_Name: valve_01_3
   m_TagString: Untagged
@@ -480,6 +481,7 @@ GameObject:
   - component: {fileID: 33813955452902758}
   - component: {fileID: 23894432558657594}
   - component: {fileID: 64950703783128194}
+  - component: {fileID: 114791753840533752}
   m_Layer: 0
   m_Name: cross_pipe_02_geo 3
   m_TagString: Untagged
@@ -724,6 +726,7 @@ GameObject:
   - component: {fileID: 33820590606127158}
   - component: {fileID: 23674552869467744}
   - component: {fileID: 64033047954123730}
+  - component: {fileID: 114606586578657182}
   m_Layer: 0
   m_Name: pipe_04_geo 2
   m_TagString: Untagged
@@ -1072,6 +1075,7 @@ GameObject:
   - component: {fileID: 4891631207809740}
   - component: {fileID: 111790969303187138}
   - component: {fileID: 114454524995795954}
+  - component: {fileID: 114330411058846896}
   m_Layer: 0
   m_Name: valve_01_2
   m_TagString: Untagged
@@ -1090,6 +1094,8 @@ GameObject:
   - component: {fileID: 33873234999516676}
   - component: {fileID: 23939709052614776}
   - component: {fileID: 64342488772394300}
+  - component: {fileID: 114505718357451832}
+  - component: {fileID: 114050400514695988}
   m_Layer: 0
   m_Name: valve_handel
   m_TagString: Untagged
@@ -1390,7 +1396,7 @@ GameObject:
   - component: {fileID: 33003541955371130}
   - component: {fileID: 23573524402827838}
   - component: {fileID: 64745635998312652}
-  - component: {fileID: 114718818201409236}
+  - component: {fileID: 114556473670688480}
   m_Layer: 0
   m_Name: tube_pipe_01_geo 3
   m_TagString: Untagged
@@ -1426,6 +1432,7 @@ GameObject:
   - component: {fileID: 4564449544385046}
   - component: {fileID: 111029866068459478}
   - component: {fileID: 114580733603786808}
+  - component: {fileID: 114798355856661218}
   m_Layer: 0
   m_Name: valve_01
   m_TagString: Untagged
@@ -2060,6 +2067,7 @@ GameObject:
   - component: {fileID: 33297523808866956}
   - component: {fileID: 23828875698632942}
   - component: {fileID: 64833906557137114}
+  - component: {fileID: 114084742458817854}
   m_Layer: 0
   m_Name: cross_pipe_02_geo
   m_TagString: Untagged
@@ -2283,6 +2291,7 @@ GameObject:
   - component: {fileID: 4413132800977442}
   - component: {fileID: 111325686282647606}
   - component: {fileID: 114993042246490972}
+  - component: {fileID: 114513769120987242}
   m_Layer: 0
   m_Name: valve_01_1
   m_TagString: Untagged
@@ -2457,6 +2466,8 @@ GameObject:
   - component: {fileID: 33106778690959414}
   - component: {fileID: 23509875019065144}
   - component: {fileID: 64409337730562834}
+  - component: {fileID: 114762992072061994}
+  - component: {fileID: 114474952572249240}
   m_Layer: 0
   m_Name: valve_handel
   m_TagString: Untagged
@@ -2544,6 +2555,8 @@ GameObject:
   - component: {fileID: 33284782940090792}
   - component: {fileID: 23328237321838516}
   - component: {fileID: 64569702197995908}
+  - component: {fileID: 114494394360891730}
+  - component: {fileID: 114521832285011472}
   m_Layer: 0
   m_Name: valve_handel
   m_TagString: Untagged
@@ -12258,9 +12271,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
+--- !u!114 &114050400514695988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402252763506258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cd36f15bf750343b472cd9e8c41d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionColor: {r: 0.38, g: 0.97, b: 0.44, a: 1}
+  interactionSpeed: 4
+  emissionIntensity: 0.2
+  useCenterScreen: 0
+  useTouchClick: 0
+  holdMouseInteraction: 0
+  mouseCursor: {fileID: 0}
+  groupedInteraction: 0
+  numberOfAscent: 1
+  interactionDistance: 3
+  interactionAnim: {fileID: 0}
+  animationLoop: 1
+  animationReset: 0
+  showTooltip: 1
+  tooltipUIPanel: {fileID: 0}
+  fixedToTheObject: 1
+  dontExitInteractionOnClickingUI: 0
+  tooltipPosition: {x: 0, y: 10}
+  tooltipText: 
+  tooltipColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  tooltipSize: 20
+  textResized: 0
+  tooltipFont: {fileID: 0}
+  tooltipAlignment: 0
+  tooltipShadowColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  tooltipShadowPosition: {x: -2, y: -2}
+  usingEvent: 0
+  eventInteractionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventInteractionExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114053448149956882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12272,9 +12334,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: blue1
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114668638206732532}
+--- !u!114 &114084742458817854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734902502616368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: 
+  _value: {r: 1, g: 1, b: 1, a: 1}
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114791753840533752}
+  - {fileID: 114834364343683692}
 --- !u!114 &114104050590193150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12286,8 +12367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114114568017132268
 MonoBehaviour:
@@ -12300,8 +12382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114151143229452954
 MonoBehaviour:
@@ -12314,8 +12397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114158806277599912
 MonoBehaviour:
@@ -12328,8 +12412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114168816162931712
 MonoBehaviour:
@@ -12342,8 +12427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 0, g: 1, b: 0, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114182638386300032
 MonoBehaviour:
@@ -12356,7 +12442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
 --- !u!114 &114192931185387544
 MonoBehaviour:
@@ -12369,8 +12455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114240726335920758
 MonoBehaviour:
@@ -12383,7 +12470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
 --- !u!114 &114307609809709750
 MonoBehaviour:
@@ -12396,9 +12483,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: red1
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114596945156188670}
+--- !u!114 &114330411058846896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1398905486651496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472e89b111dbe5d4996a0f15e3c19e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: green1
+  _flowRate: 1
+  animScrubber: {fileID: 114454524995795954}
+--- !u!114 &114384475261982220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085842622459182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472e89b111dbe5d4996a0f15e3c19e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: red1
+  _flowRate: 0
+  animScrubber: {fileID: 114492194213238264}
 --- !u!114 &114443634210219066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12410,9 +12527,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: green1
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114168816162931712}
 --- !u!114 &114454524995795954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12424,8 +12543,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
+--- !u!114 &114474952572249240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1860897605379950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cd36f15bf750343b472cd9e8c41d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionColor: {r: 0.38, g: 0.97, b: 0.44, a: 1}
+  interactionSpeed: 4
+  emissionIntensity: 0.2
+  useCenterScreen: 0
+  useTouchClick: 0
+  holdMouseInteraction: 0
+  mouseCursor: {fileID: 0}
+  groupedInteraction: 0
+  numberOfAscent: 1
+  interactionDistance: 3
+  interactionAnim: {fileID: 0}
+  animationLoop: 1
+  animationReset: 0
+  showTooltip: 1
+  tooltipUIPanel: {fileID: 0}
+  fixedToTheObject: 1
+  dontExitInteractionOnClickingUI: 0
+  tooltipPosition: {x: 0, y: 10}
+  tooltipText: 
+  tooltipColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  tooltipSize: 20
+  textResized: 0
+  tooltipFont: {fileID: 0}
+  tooltipAlignment: 0
+  tooltipShadowColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  tooltipShadowPosition: {x: -2, y: -2}
+  usingEvent: 0
+  eventInteractionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventInteractionExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114492194213238264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12437,38 +12604,212 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0.5
-  AnimationEvents:
-  - m_PersistentCalls:
+  initStartPoint: 1
+  AnimationEvents: []
+--- !u!114 &114494394360891730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879534260610954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d7db176cf1a0b4bb7b1881ca8802da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftHold:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Stop
-        m_Mode: 1
+      - m_Target: {fileID: 114798355856661218}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 0
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  RightHold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114798355856661218}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114505718357451832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402252763506258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d7db176cf1a0b4bb7b1881ca8802da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftHold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114330411058846896}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightHold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114330411058846896}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114513769120987242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808366401694776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472e89b111dbe5d4996a0f15e3c19e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: blue1
+  _flowRate: 1
+  animScrubber: {fileID: 114993042246490972}
+--- !u!114 &114521832285011472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879534260610954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cd36f15bf750343b472cd9e8c41d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionColor: {r: 0.38, g: 0.97, b: 0.44, a: 1}
+  interactionSpeed: 4
+  emissionIntensity: 0.2
+  useCenterScreen: 0
+  useTouchClick: 0
+  holdMouseInteraction: 0
+  mouseCursor: {fileID: 0}
+  groupedInteraction: 0
+  numberOfAscent: 1
+  interactionDistance: 3
+  interactionAnim: {fileID: 0}
+  animationLoop: 1
+  animationReset: 0
+  showTooltip: 1
+  tooltipUIPanel: {fileID: 0}
+  fixedToTheObject: 1
+  dontExitInteractionOnClickingUI: 0
+  tooltipPosition: {x: 0, y: 10}
+  tooltipText: 
+  tooltipColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  tooltipSize: 20
+  textResized: 0
+  tooltipFont: {fileID: 0}
+  tooltipAlignment: 0
+  tooltipShadowColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  tooltipShadowPosition: {x: -2, y: -2}
+  usingEvent: 0
+  eventInteractionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  eventInteractionExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114556473670688480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494871879011252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: yellow1
+  _value: {r: 1, g: 1, b: 1, a: 1}
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114606586578657182}
 --- !u!114 &114580733603786808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12480,7 +12821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
 --- !u!114 &114596945156188670
 MonoBehaviour:
@@ -12493,8 +12834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 0, b: 0, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114597987683026694
 MonoBehaviour:
@@ -12544,6 +12886,21 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114606586578657182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1269932998781618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: 
+  _value: {r: 1, g: 1, b: 0, a: 1}
+  flowRate: 1
+  connectedIntakePipes: []
 --- !u!114 &114663666115224406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12555,8 +12912,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114668638206732532
 MonoBehaviour:
@@ -12569,8 +12927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 0, g: 0, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114671171194368922
 MonoBehaviour:
@@ -12583,9 +12942,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114780436289890406}
+  - {fileID: 114443634210219066}
 --- !u!114 &114675860018061674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12597,7 +12959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
 --- !u!114 &114716031078281864
 MonoBehaviour:
@@ -12610,22 +12972,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
---- !u!114 &114718818201409236
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1494871879011252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
 --- !u!114 &114742178944002882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12637,7 +12985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
 --- !u!114 &114745159067588908
 MonoBehaviour:
@@ -12650,8 +12998,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
+--- !u!114 &114762992072061994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1860897605379950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d7db176cf1a0b4bb7b1881ca8802da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftHold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114513769120987242}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightHold:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114513769120987242}
+        m_MethodName: AdjustFlowRate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  LeftRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  RightRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114766350713627614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12663,8 +13074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114780436289890406
 MonoBehaviour:
@@ -12677,9 +13089,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114307609809709750}
+--- !u!114 &114791753840533752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1141653610285420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: 
+  _value: {r: 1, g: 1, b: 1, a: 1}
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114556473670688480}
+--- !u!114 &114798355856661218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1503446457882326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472e89b111dbe5d4996a0f15e3c19e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valveTag: yellow1
+  _flowRate: 0
+  animScrubber: {fileID: 114580733603786808}
 --- !u!114 &114834364343683692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12691,9 +13135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
-  connectedIntakePipes: []
+  flowRate: 1
+  connectedIntakePipes:
+  - {fileID: 114671171194368922}
+  - {fileID: 114053448149956882}
 --- !u!114 &114901611547053364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12718,8 +13165,8 @@ MonoBehaviour:
   LeftHold:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114492194213238264}
-        m_MethodName: ScrubAnimation
+      - m_Target: {fileID: 114384475261982220}
+        m_MethodName: AdjustFlowRate
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12734,8 +13181,8 @@ MonoBehaviour:
   RightHold:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114492194213238264}
-        m_MethodName: ScrubAnimation
+      - m_Target: {fileID: 114384475261982220}
+        m_MethodName: AdjustFlowRate
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12768,8 +13215,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68efa4ca4a24554c82e9de375c576a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  valveTag: 
   _value: {r: 1, g: 1, b: 1, a: 1}
-  openAmmount: 1
+  flowRate: 1
   connectedIntakePipes: []
 --- !u!114 &114993042246490972
 MonoBehaviour:
@@ -12782,5 +13230,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d376ae68c0e04641a5d860953ab8f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initStartPoint: 0
+  initStartPoint: 1
   AnimationEvents: []
