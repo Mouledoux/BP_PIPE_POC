@@ -5,7 +5,7 @@ using UnityEngine.Assertions.Comparers;
 
 public class QuickSubscribe : MonoBehaviour
 {
-    public bool setActive;
+    public bool setActive = true;
 
     private Mouledoux.Components.Mediator.Subscriptions m_subscriptions =
         new Mouledoux.Components.Mediator.Subscriptions();

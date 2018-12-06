@@ -225,7 +225,7 @@
 			dist += 2.0;
 			interactive += power * interactions[i].z;
 		}
-		world_position.y += clamp(interactive, -MAX_WAVE_AMP, MAX_WAVE_AMP);
+		//world_position.y += clamp(interactive, -MAX_WAVE_AMP, MAX_WAVE_AMP);
 		
 		o.world_position = world_position;
 		o.normal = get_water_normal(world_position.xyz);
@@ -332,16 +332,16 @@
 	{
 		Tags {"RenderType"="Transparent" "Queue"="Transparent"}
 		Lod 300
-		//ColorMask RGBA
+		ColorMask RGBA
 		
 		GrabPass { "_RefractionTex" }
 		
 		Pass
 		{
 			Blend SrcAlpha OneMinusSrcAlpha
-			//ZTest LEqual
-			//ZWrite Off
-			//Cull Off
+			ZTest LEqual
+			ZWrite Off
+			Cull Off
 		
 			CGPROGRAM
 		
