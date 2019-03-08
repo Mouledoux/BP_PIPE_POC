@@ -81,7 +81,8 @@ public class Pipe : MonoBehaviour
 
     private void OnDestroy()
     {
-        subscriptions.UnsubscribeAll();
+        print("am dead");
+        //subscriptions.UnsubscribeAll();
     }
 
 

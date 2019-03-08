@@ -1,0 +1,1529 @@
+fileFormatVersion: 2
+guid: 035ca27ba99167c4f8dbcdd748c119fb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0
+    100002: ACPPCONNECTOR
+    100004: ACPPCONNECTOR 1
+    100006: ACPPCONNECTOR 10
+    100008: ACPPCONNECTOR 11
+    100010: ACPPCONNECTOR 12
+    100012: ACPPCONNECTOR 13
+    100014: ACPPCONNECTOR 14
+    100016: ACPPCONNECTOR 15
+    100018: ACPPCONNECTOR 16
+    100020: ACPPCONNECTOR 17
+    100022: ACPPCONNECTOR 18
+    100024: ACPPCONNECTOR 19
+    100026: ACPPCONNECTOR 2
+    100028: ACPPCONNECTOR 20
+    100030: ACPPCONNECTOR 21
+    100032: ACPPCONNECTOR 22
+    100034: ACPPCONNECTOR 23
+    100036: ACPPCONNECTOR 24
+    100038: ACPPCONNECTOR 25
+    100040: ACPPCONNECTOR 26
+    100042: ACPPCONNECTOR 27
+    100044: ACPPCONNECTOR 28
+    100046: ACPPCONNECTOR 29
+    100048: ACPPCONNECTOR 3
+    100050: ACPPCONNECTOR 30
+    100052: ACPPCONNECTOR 31
+    100054: ACPPCONNECTOR 32
+    100056: ACPPCONNECTOR 33
+    100058: ACPPCONNECTOR 34
+    100060: ACPPCONNECTOR 35
+    100062: ACPPCONNECTOR 36
+    100064: ACPPCONNECTOR 37
+    100066: ACPPCONNECTOR 38
+    100068: ACPPCONNECTOR 39
+    100070: ACPPCONNECTOR 4
+    100072: ACPPCONNECTOR 40
+    100074: ACPPCONNECTOR 41
+    100076: ACPPCONNECTOR 42
+    100078: ACPPCONNECTOR 43
+    100080: ACPPCONNECTOR 44
+    100082: ACPPCONNECTOR 45
+    100084: ACPPCONNECTOR 46
+    100086: ACPPCONNECTOR 47
+    100088: ACPPCONNECTOR 48
+    100090: ACPPCONNECTOR 49
+    100092: ACPPCONNECTOR 5
+    100094: ACPPCONNECTOR 50
+    100096: ACPPCONNECTOR 51
+    100098: ACPPCONNECTOR 52
+    100100: ACPPCONNECTOR 53
+    100102: ACPPCONNECTOR 54
+    100104: ACPPCONNECTOR 55
+    100106: ACPPCONNECTOR 56
+    100108: ACPPCONNECTOR 6
+    100110: ACPPCONNECTOR 7
+    100112: ACPPCONNECTOR 8
+    100114: ACPPCONNECTOR 9
+    100116: ACPPPIPE
+    100118: ACPPPIPE 1
+    100120: ACPPPIPE 10
+    100122: ACPPPIPE 11
+    100124: ACPPPIPE 12
+    100126: ACPPPIPE 13
+    100128: ACPPPIPE 14
+    100130: ACPPPIPE 15
+    100132: ACPPPIPE 16
+    100134: ACPPPIPE 17
+    100136: ACPPPIPE 18
+    100138: ACPPPIPE 2
+    100140: ACPPPIPE 3
+    100142: ACPPPIPE 4
+    100144: ACPPPIPE 5
+    100146: ACPPPIPE 6
+    100148: ACPPPIPE 7
+    100150: ACPPPIPE 8
+    100152: ACPPPIPE 9
+    100154: ACPPPIPEINLINEASSET
+    100156: ACPPPIPEINLINEASSET 1
+    100158: ACPPPIPEINLINEASSET 10
+    100160: ACPPPIPEINLINEASSET 11
+    100162: ACPPPIPEINLINEASSET 12
+    100164: ACPPPIPEINLINEASSET 13
+    100166: ACPPPIPEINLINEASSET 14
+    100168: ACPPPIPEINLINEASSET 15
+    100170: ACPPPIPEINLINEASSET 16
+    100172: ACPPPIPEINLINEASSET 17
+    100174: ACPPPIPEINLINEASSET 18
+    100176: ACPPPIPEINLINEASSET 19
+    100178: ACPPPIPEINLINEASSET 2
+    100180: ACPPPIPEINLINEASSET 20
+    100182: ACPPPIPEINLINEASSET 21
+    100184: ACPPPIPEINLINEASSET 22
+    100186: ACPPPIPEINLINEASSET 23
+    100188: ACPPPIPEINLINEASSET 24
+    100190: ACPPPIPEINLINEASSET 25
+    100192: ACPPPIPEINLINEASSET 26
+    100194: ACPPPIPEINLINEASSET 27
+    100196: ACPPPIPEINLINEASSET 28
+    100198: ACPPPIPEINLINEASSET 29
+    100200: ACPPPIPEINLINEASSET 3
+    100202: ACPPPIPEINLINEASSET 30
+    100204: ACPPPIPEINLINEASSET 31
+    100206: ACPPPIPEINLINEASSET 32
+    100208: ACPPPIPEINLINEASSET 33
+    100210: ACPPPIPEINLINEASSET 34
+    100212: ACPPPIPEINLINEASSET 35
+    100214: ACPPPIPEINLINEASSET 36
+    100216: ACPPPIPEINLINEASSET 37
+    100218: ACPPPIPEINLINEASSET 38
+    100220: ACPPPIPEINLINEASSET 4
+    100222: ACPPPIPEINLINEASSET 5
+    100224: ACPPPIPEINLINEASSET 6
+    100226: ACPPPIPEINLINEASSET 7
+    100228: ACPPPIPEINLINEASSET 8
+    100230: ACPPPIPEINLINEASSET 9
+    100232: curve 0
+    100234: curve 0 1
+    100236: curve 0 10
+    100238: curve 0 11
+    100240: curve 0 12
+    100242: curve 0 13
+    100244: curve 0 14
+    100246: curve 0 15
+    100248: curve 0 16
+    100250: curve 0 17
+    100252: curve 0 18
+    100254: curve 0 19
+    100256: curve 0 2
+    100258: curve 0 20
+    100260: curve 0 21
+    100262: curve 0 22
+    100264: curve 0 23
+    100266: curve 0 24
+    100268: curve 0 25
+    100270: curve 0 26
+    100272: curve 0 27
+    100274: curve 0 28
+    100276: curve 0 29
+    100278: curve 0 3
+    100280: curve 0 30
+    100282: curve 0 31
+    100284: curve 0 32
+    100286: curve 0 33
+    100288: curve 0 34
+    100290: curve 0 35
+    100292: curve 0 36
+    100294: curve 0 37
+    100296: curve 0 38
+    100298: curve 0 39
+    100300: curve 0 4
+    100302: curve 0 40
+    100304: curve 0 41
+    100306: curve 0 42
+    100308: curve 0 43
+    100310: curve 0 44
+    100312: curve 0 45
+    100314: curve 0 46
+    100316: curve 0 47
+    100318: curve 0 48
+    100320: curve 0 49
+    100322: curve 0 5
+    100324: curve 0 50
+    100326: curve 0 51
+    100328: curve 0 52
+    100330: curve 0 53
+    100332: curve 0 54
+    100334: curve 0 55
+    100336: curve 0 56
+    100338: curve 0 6
+    100340: curve 0 7
+    100342: curve 0 8
+    100344: curve 0 9
+    100346: curve 1
+    100348: curve 1 1
+    100350: curve 1 10
+    100352: curve 1 11
+    100354: curve 1 12
+    100356: curve 1 13
+    100358: curve 1 14
+    100360: curve 1 15
+    100362: curve 1 16
+    100364: curve 1 17
+    100366: curve 1 18
+    100368: curve 1 19
+    100370: curve 1 2
+    100372: curve 1 20
+    100374: curve 1 21
+    100376: curve 1 22
+    100378: curve 1 23
+    100380: curve 1 24
+    100382: curve 1 25
+    100384: curve 1 26
+    100386: curve 1 27
+    100388: curve 1 28
+    100390: curve 1 29
+    100392: curve 1 3
+    100394: curve 1 30
+    100396: curve 1 31
+    100398: curve 1 32
+    100400: curve 1 33
+    100402: curve 1 34
+    100404: curve 1 35
+    100406: curve 1 36
+    100408: curve 1 37
+    100410: curve 1 38
+    100412: curve 1 39
+    100414: curve 1 4
+    100416: curve 1 40
+    100418: curve 1 41
+    100420: curve 1 42
+    100422: curve 1 43
+    100424: curve 1 44
+    100426: curve 1 45
+    100428: curve 1 46
+    100430: curve 1 47
+    100432: curve 1 48
+    100434: curve 1 49
+    100436: curve 1 5
+    100438: curve 1 50
+    100440: curve 1 51
+    100442: curve 1 52
+    100444: curve 1 53
+    100446: curve 1 54
+    100448: curve 1 55
+    100450: curve 1 56
+    100452: curve 1 6
+    100454: curve 1 7
+    100456: curve 1 8
+    100458: curve 1 9
+    100460: curve 2
+    100462: curve 2 1
+    100464: curve 2 10
+    100466: curve 2 11
+    100468: curve 2 12
+    100470: curve 2 13
+    100472: curve 2 14
+    100474: curve 2 15
+    100476: curve 2 16
+    100478: curve 2 17
+    100480: curve 2 18
+    100482: curve 2 19
+    100484: curve 2 2
+    100486: curve 2 20
+    100488: curve 2 21
+    100490: curve 2 22
+    100492: curve 2 23
+    100494: curve 2 24
+    100496: curve 2 25
+    100498: curve 2 26
+    100500: curve 2 27
+    100502: curve 2 28
+    100504: curve 2 29
+    100506: curve 2 3
+    100508: curve 2 30
+    100510: curve 2 31
+    100512: curve 2 32
+    100514: curve 2 33
+    100516: curve 2 34
+    100518: curve 2 35
+    100520: curve 2 36
+    100522: curve 2 37
+    100524: curve 2 38
+    100526: curve 2 39
+    100528: curve 2 4
+    100530: curve 2 40
+    100532: curve 2 41
+    100534: curve 2 42
+    100536: curve 2 43
+    100538: curve 2 44
+    100540: curve 2 5
+    100542: curve 2 6
+    100544: curve 2 7
+    100546: curve 2 8
+    100548: curve 2 9
+    100550: curve 3
+    100552: curve 3 1
+    100554: curve 3 10
+    100556: curve 3 11
+    100558: curve 3 12
+    100560: curve 3 13
+    100562: curve 3 14
+    100564: curve 3 15
+    100566: curve 3 16
+    100568: curve 3 17
+    100570: curve 3 18
+    100572: curve 3 19
+    100574: curve 3 2
+    100576: curve 3 20
+    100578: curve 3 21
+    100580: curve 3 22
+    100582: curve 3 23
+    100584: curve 3 24
+    100586: curve 3 25
+    100588: curve 3 26
+    100590: curve 3 27
+    100592: curve 3 28
+    100594: curve 3 29
+    100596: curve 3 3
+    100598: curve 3 30
+    100600: curve 3 31
+    100602: curve 3 32
+    100604: curve 3 33
+    100606: curve 3 34
+    100608: curve 3 35
+    100610: curve 3 36
+    100612: curve 3 37
+    100614: curve 3 38
+    100616: curve 3 39
+    100618: curve 3 4
+    100620: curve 3 40
+    100622: curve 3 41
+    100624: curve 3 42
+    100626: curve 3 43
+    100628: curve 3 44
+    100630: curve 3 5
+    100632: curve 3 6
+    100634: curve 3 7
+    100636: curve 3 8
+    100638: curve 3 9
+    100640: curve 4
+    100642: curve 4 1
+    100644: curve 4 10
+    100646: curve 4 11
+    100648: curve 4 12
+    100650: curve 4 13
+    100652: curve 4 14
+    100654: curve 4 15
+    100656: curve 4 16
+    100658: curve 4 17
+    100660: curve 4 18
+    100662: curve 4 19
+    100664: curve 4 2
+    100666: curve 4 20
+    100668: curve 4 21
+    100670: curve 4 22
+    100672: curve 4 23
+    100674: curve 4 24
+    100676: curve 4 25
+    100678: curve 4 26
+    100680: curve 4 27
+    100682: curve 4 28
+    100684: curve 4 29
+    100686: curve 4 3
+    100688: curve 4 30
+    100690: curve 4 31
+    100692: curve 4 32
+    100694: curve 4 33
+    100696: curve 4 34
+    100698: curve 4 35
+    100700: curve 4 36
+    100702: curve 4 37
+    100704: curve 4 38
+    100706: curve 4 39
+    100708: curve 4 4
+    100710: curve 4 40
+    100712: curve 4 41
+    100714: curve 4 42
+    100716: curve 4 43
+    100718: curve 4 44
+    100720: curve 4 5
+    100722: curve 4 6
+    100724: curve 4 7
+    100726: curve 4 8
+    100728: curve 4 9
+    100730: curve 5
+    100732: curve 5 1
+    100734: curve 5 10
+    100736: curve 5 11
+    100738: curve 5 12
+    100740: curve 5 13
+    100742: curve 5 14
+    100744: curve 5 15
+    100746: curve 5 16
+    100748: curve 5 17
+    100750: curve 5 18
+    100752: curve 5 19
+    100754: curve 5 2
+    100756: curve 5 20
+    100758: curve 5 21
+    100760: curve 5 22
+    100762: curve 5 23
+    100764: curve 5 24
+    100766: curve 5 25
+    100768: curve 5 26
+    100770: curve 5 27
+    100772: curve 5 28
+    100774: curve 5 29
+    100776: curve 5 3
+    100778: curve 5 30
+    100780: curve 5 31
+    100782: curve 5 32
+    100784: curve 5 33
+    100786: curve 5 34
+    100788: curve 5 35
+    100790: curve 5 36
+    100792: curve 5 37
+    100794: curve 5 38
+    100796: curve 5 39
+    100798: curve 5 4
+    100800: curve 5 40
+    100802: curve 5 41
+    100804: curve 5 42
+    100806: curve 5 43
+    100808: curve 5 44
+    100810: curve 5 5
+    100812: curve 5 6
+    100814: curve 5 7
+    100816: curve 5 8
+    100818: curve 5 9
+    100820: curve 6
+    100822: curve 6 1
+    100824: curve 6 10
+    100826: curve 6 11
+    100828: curve 6 12
+    100830: curve 6 13
+    100832: curve 6 14
+    100834: curve 6 15
+    100836: curve 6 16
+    100838: curve 6 17
+    100840: curve 6 18
+    100842: curve 6 19
+    100844: curve 6 2
+    100846: curve 6 20
+    100848: curve 6 21
+    100850: curve 6 22
+    100852: curve 6 23
+    100854: curve 6 24
+    100856: curve 6 25
+    100858: curve 6 26
+    100860: curve 6 27
+    100862: curve 6 28
+    100864: curve 6 29
+    100866: curve 6 3
+    100868: curve 6 30
+    100870: curve 6 31
+    100872: curve 6 32
+    100874: curve 6 33
+    100876: curve 6 34
+    100878: curve 6 35
+    100880: curve 6 36
+    100882: curve 6 37
+    100884: curve 6 38
+    100886: curve 6 39
+    100888: curve 6 4
+    100890: curve 6 40
+    100892: curve 6 41
+    100894: curve 6 42
+    100896: curve 6 43
+    100898: curve 6 44
+    100900: curve 6 5
+    100902: curve 6 6
+    100904: curve 6 7
+    100906: curve 6 8
+    100908: curve 6 9
+    100910: curve 7
+    100912: curve 7 1
+    100914: curve 7 10
+    100916: curve 7 11
+    100918: curve 7 12
+    100920: curve 7 13
+    100922: curve 7 14
+    100924: curve 7 15
+    100926: curve 7 16
+    100928: curve 7 17
+    100930: curve 7 18
+    100932: curve 7 19
+    100934: curve 7 2
+    100936: curve 7 20
+    100938: curve 7 21
+    100940: curve 7 22
+    100942: curve 7 23
+    100944: curve 7 24
+    100946: curve 7 25
+    100948: curve 7 26
+    100950: curve 7 27
+    100952: curve 7 28
+    100954: curve 7 29
+    100956: curve 7 3
+    100958: curve 7 30
+    100960: curve 7 31
+    100962: curve 7 32
+    100964: curve 7 33
+    100966: curve 7 34
+    100968: curve 7 35
+    100970: curve 7 4
+    100972: curve 7 5
+    100974: curve 7 6
+    100976: curve 7 7
+    100978: curve 7 8
+    100980: curve 7 9
+    100982: Default Camera
+    100984: Default Camera marker
+    100986: Default Camera up
+    100988: Distant Light
+    100990: Distant Light (1)
+    100992: Environment
+    100994: pipe
+    100996: //RootNode
+    100998: Subentity
+    101000: Subentity 1
+    101002: Subentity 10
+    101004: Subentity 100
+    101006: Subentity 101
+    101008: Subentity 102
+    101010: Subentity 103
+    101012: Subentity 104
+    101014: Subentity 105
+    101016: Subentity 106
+    101018: Subentity 107
+    101020: Subentity 108
+    101022: Subentity 109
+    101024: Subentity 11
+    101026: Subentity 110
+    101028: Subentity 111
+    101030: Subentity 112
+    101032: Subentity 113
+    101034: Subentity 12
+    101036: Subentity 13
+    101038: Subentity 14
+    101040: Subentity 15
+    101042: Subentity 16
+    101044: Subentity 17
+    101046: Subentity 18
+    101048: Subentity 19
+    101050: Subentity 2
+    101052: Subentity 20
+    101054: Subentity 21
+    101056: Subentity 22
+    101058: Subentity 23
+    101060: Subentity 24
+    101062: Subentity 25
+    101064: Subentity 26
+    101066: Subentity 27
+    101068: Subentity 28
+    101070: Subentity 29
+    101072: Subentity 3
+    101074: Subentity 30
+    101076: Subentity 31
+    101078: Subentity 32
+    101080: Subentity 33
+    101082: Subentity 34
+    101084: Subentity 35
+    101086: Subentity 36
+    101088: Subentity 37
+    101090: Subentity 38
+    101092: Subentity 39
+    101094: Subentity 4
+    101096: Subentity 40
+    101098: Subentity 41
+    101100: Subentity 42
+    101102: Subentity 43
+    101104: Subentity 44
+    101106: Subentity 45
+    101108: Subentity 46
+    101110: Subentity 47
+    101112: Subentity 48
+    101114: Subentity 49
+    101116: Subentity 5
+    101118: Subentity 50
+    101120: Subentity 51
+    101122: Subentity 52
+    101124: Subentity 53
+    101126: Subentity 54
+    101128: Subentity 55
+    101130: Subentity 56
+    101132: Subentity 57
+    101134: Subentity 58
+    101136: Subentity 59
+    101138: Subentity 6
+    101140: Subentity 60
+    101142: Subentity 61
+    101144: Subentity 62
+    101146: Subentity 63
+    101148: Subentity 64
+    101150: Subentity 65
+    101152: Subentity 66
+    101154: Subentity 67
+    101156: Subentity 68
+    101158: Subentity 69
+    101160: Subentity 7
+    101162: Subentity 70
+    101164: Subentity 71
+    101166: Subentity 72
+    101168: Subentity 73
+    101170: Subentity 74
+    101172: Subentity 75
+    101174: Subentity 76
+    101176: Subentity 77
+    101178: Subentity 78
+    101180: Subentity 79
+    101182: Subentity 8
+    101184: Subentity 80
+    101186: Subentity 81
+    101188: Subentity 82
+    101190: Subentity 83
+    101192: Subentity 84
+    101194: Subentity 85
+    101196: Subentity 86
+    101198: Subentity 87
+    101200: Subentity 88
+    101202: Subentity 89
+    101204: Subentity 9
+    101206: Subentity 90
+    101208: Subentity 91
+    101210: Subentity 92
+    101212: Subentity 93
+    101214: Subentity 94
+    101216: Subentity 95
+    101218: Subentity 96
+    101220: Subentity 97
+    101222: Subentity 98
+    101224: Subentity 99
+    101226: valves
+    400000: 0
+    400002: ACPPCONNECTOR
+    400004: ACPPCONNECTOR 1
+    400006: ACPPCONNECTOR 10
+    400008: ACPPCONNECTOR 11
+    400010: ACPPCONNECTOR 12
+    400012: ACPPCONNECTOR 13
+    400014: ACPPCONNECTOR 14
+    400016: ACPPCONNECTOR 15
+    400018: ACPPCONNECTOR 16
+    400020: ACPPCONNECTOR 17
+    400022: ACPPCONNECTOR 18
+    400024: ACPPCONNECTOR 19
+    400026: ACPPCONNECTOR 2
+    400028: ACPPCONNECTOR 20
+    400030: ACPPCONNECTOR 21
+    400032: ACPPCONNECTOR 22
+    400034: ACPPCONNECTOR 23
+    400036: ACPPCONNECTOR 24
+    400038: ACPPCONNECTOR 25
+    400040: ACPPCONNECTOR 26
+    400042: ACPPCONNECTOR 27
+    400044: ACPPCONNECTOR 28
+    400046: ACPPCONNECTOR 29
+    400048: ACPPCONNECTOR 3
+    400050: ACPPCONNECTOR 30
+    400052: ACPPCONNECTOR 31
+    400054: ACPPCONNECTOR 32
+    400056: ACPPCONNECTOR 33
+    400058: ACPPCONNECTOR 34
+    400060: ACPPCONNECTOR 35
+    400062: ACPPCONNECTOR 36
+    400064: ACPPCONNECTOR 37
+    400066: ACPPCONNECTOR 38
+    400068: ACPPCONNECTOR 39
+    400070: ACPPCONNECTOR 4
+    400072: ACPPCONNECTOR 40
+    400074: ACPPCONNECTOR 41
+    400076: ACPPCONNECTOR 42
+    400078: ACPPCONNECTOR 43
+    400080: ACPPCONNECTOR 44
+    400082: ACPPCONNECTOR 45
+    400084: ACPPCONNECTOR 46
+    400086: ACPPCONNECTOR 47
+    400088: ACPPCONNECTOR 48
+    400090: ACPPCONNECTOR 49
+    400092: ACPPCONNECTOR 5
+    400094: ACPPCONNECTOR 50
+    400096: ACPPCONNECTOR 51
+    400098: ACPPCONNECTOR 52
+    400100: ACPPCONNECTOR 53
+    400102: ACPPCONNECTOR 54
+    400104: ACPPCONNECTOR 55
+    400106: ACPPCONNECTOR 56
+    400108: ACPPCONNECTOR 6
+    400110: ACPPCONNECTOR 7
+    400112: ACPPCONNECTOR 8
+    400114: ACPPCONNECTOR 9
+    400116: ACPPPIPE
+    400118: ACPPPIPE 1
+    400120: ACPPPIPE 10
+    400122: ACPPPIPE 11
+    400124: ACPPPIPE 12
+    400126: ACPPPIPE 13
+    400128: ACPPPIPE 14
+    400130: ACPPPIPE 15
+    400132: ACPPPIPE 16
+    400134: ACPPPIPE 17
+    400136: ACPPPIPE 18
+    400138: ACPPPIPE 2
+    400140: ACPPPIPE 3
+    400142: ACPPPIPE 4
+    400144: ACPPPIPE 5
+    400146: ACPPPIPE 6
+    400148: ACPPPIPE 7
+    400150: ACPPPIPE 8
+    400152: ACPPPIPE 9
+    400154: ACPPPIPEINLINEASSET
+    400156: ACPPPIPEINLINEASSET 1
+    400158: ACPPPIPEINLINEASSET 10
+    400160: ACPPPIPEINLINEASSET 11
+    400162: ACPPPIPEINLINEASSET 12
+    400164: ACPPPIPEINLINEASSET 13
+    400166: ACPPPIPEINLINEASSET 14
+    400168: ACPPPIPEINLINEASSET 15
+    400170: ACPPPIPEINLINEASSET 16
+    400172: ACPPPIPEINLINEASSET 17
+    400174: ACPPPIPEINLINEASSET 18
+    400176: ACPPPIPEINLINEASSET 19
+    400178: ACPPPIPEINLINEASSET 2
+    400180: ACPPPIPEINLINEASSET 20
+    400182: ACPPPIPEINLINEASSET 21
+    400184: ACPPPIPEINLINEASSET 22
+    400186: ACPPPIPEINLINEASSET 23
+    400188: ACPPPIPEINLINEASSET 24
+    400190: ACPPPIPEINLINEASSET 25
+    400192: ACPPPIPEINLINEASSET 26
+    400194: ACPPPIPEINLINEASSET 27
+    400196: ACPPPIPEINLINEASSET 28
+    400198: ACPPPIPEINLINEASSET 29
+    400200: ACPPPIPEINLINEASSET 3
+    400202: ACPPPIPEINLINEASSET 30
+    400204: ACPPPIPEINLINEASSET 31
+    400206: ACPPPIPEINLINEASSET 32
+    400208: ACPPPIPEINLINEASSET 33
+    400210: ACPPPIPEINLINEASSET 34
+    400212: ACPPPIPEINLINEASSET 35
+    400214: ACPPPIPEINLINEASSET 36
+    400216: ACPPPIPEINLINEASSET 37
+    400218: ACPPPIPEINLINEASSET 38
+    400220: ACPPPIPEINLINEASSET 4
+    400222: ACPPPIPEINLINEASSET 5
+    400224: ACPPPIPEINLINEASSET 6
+    400226: ACPPPIPEINLINEASSET 7
+    400228: ACPPPIPEINLINEASSET 8
+    400230: ACPPPIPEINLINEASSET 9
+    400232: curve 0
+    400234: curve 0 1
+    400236: curve 0 10
+    400238: curve 0 11
+    400240: curve 0 12
+    400242: curve 0 13
+    400244: curve 0 14
+    400246: curve 0 15
+    400248: curve 0 16
+    400250: curve 0 17
+    400252: curve 0 18
+    400254: curve 0 19
+    400256: curve 0 2
+    400258: curve 0 20
+    400260: curve 0 21
+    400262: curve 0 22
+    400264: curve 0 23
+    400266: curve 0 24
+    400268: curve 0 25
+    400270: curve 0 26
+    400272: curve 0 27
+    400274: curve 0 28
+    400276: curve 0 29
+    400278: curve 0 3
+    400280: curve 0 30
+    400282: curve 0 31
+    400284: curve 0 32
+    400286: curve 0 33
+    400288: curve 0 34
+    400290: curve 0 35
+    400292: curve 0 36
+    400294: curve 0 37
+    400296: curve 0 38
+    400298: curve 0 39
+    400300: curve 0 4
+    400302: curve 0 40
+    400304: curve 0 41
+    400306: curve 0 42
+    400308: curve 0 43
+    400310: curve 0 44
+    400312: curve 0 45
+    400314: curve 0 46
+    400316: curve 0 47
+    400318: curve 0 48
+    400320: curve 0 49
+    400322: curve 0 5
+    400324: curve 0 50
+    400326: curve 0 51
+    400328: curve 0 52
+    400330: curve 0 53
+    400332: curve 0 54
+    400334: curve 0 55
+    400336: curve 0 56
+    400338: curve 0 6
+    400340: curve 0 7
+    400342: curve 0 8
+    400344: curve 0 9
+    400346: curve 1
+    400348: curve 1 1
+    400350: curve 1 10
+    400352: curve 1 11
+    400354: curve 1 12
+    400356: curve 1 13
+    400358: curve 1 14
+    400360: curve 1 15
+    400362: curve 1 16
+    400364: curve 1 17
+    400366: curve 1 18
+    400368: curve 1 19
+    400370: curve 1 2
+    400372: curve 1 20
+    400374: curve 1 21
+    400376: curve 1 22
+    400378: curve 1 23
+    400380: curve 1 24
+    400382: curve 1 25
+    400384: curve 1 26
+    400386: curve 1 27
+    400388: curve 1 28
+    400390: curve 1 29
+    400392: curve 1 3
+    400394: curve 1 30
+    400396: curve 1 31
+    400398: curve 1 32
+    400400: curve 1 33
+    400402: curve 1 34
+    400404: curve 1 35
+    400406: curve 1 36
+    400408: curve 1 37
+    400410: curve 1 38
+    400412: curve 1 39
+    400414: curve 1 4
+    400416: curve 1 40
+    400418: curve 1 41
+    400420: curve 1 42
+    400422: curve 1 43
+    400424: curve 1 44
+    400426: curve 1 45
+    400428: curve 1 46
+    400430: curve 1 47
+    400432: curve 1 48
+    400434: curve 1 49
+    400436: curve 1 5
+    400438: curve 1 50
+    400440: curve 1 51
+    400442: curve 1 52
+    400444: curve 1 53
+    400446: curve 1 54
+    400448: curve 1 55
+    400450: curve 1 56
+    400452: curve 1 6
+    400454: curve 1 7
+    400456: curve 1 8
+    400458: curve 1 9
+    400460: curve 2
+    400462: curve 2 1
+    400464: curve 2 10
+    400466: curve 2 11
+    400468: curve 2 12
+    400470: curve 2 13
+    400472: curve 2 14
+    400474: curve 2 15
+    400476: curve 2 16
+    400478: curve 2 17
+    400480: curve 2 18
+    400482: curve 2 19
+    400484: curve 2 2
+    400486: curve 2 20
+    400488: curve 2 21
+    400490: curve 2 22
+    400492: curve 2 23
+    400494: curve 2 24
+    400496: curve 2 25
+    400498: curve 2 26
+    400500: curve 2 27
+    400502: curve 2 28
+    400504: curve 2 29
+    400506: curve 2 3
+    400508: curve 2 30
+    400510: curve 2 31
+    400512: curve 2 32
+    400514: curve 2 33
+    400516: curve 2 34
+    400518: curve 2 35
+    400520: curve 2 36
+    400522: curve 2 37
+    400524: curve 2 38
+    400526: curve 2 39
+    400528: curve 2 4
+    400530: curve 2 40
+    400532: curve 2 41
+    400534: curve 2 42
+    400536: curve 2 43
+    400538: curve 2 44
+    400540: curve 2 5
+    400542: curve 2 6
+    400544: curve 2 7
+    400546: curve 2 8
+    400548: curve 2 9
+    400550: curve 3
+    400552: curve 3 1
+    400554: curve 3 10
+    400556: curve 3 11
+    400558: curve 3 12
+    400560: curve 3 13
+    400562: curve 3 14
+    400564: curve 3 15
+    400566: curve 3 16
+    400568: curve 3 17
+    400570: curve 3 18
+    400572: curve 3 19
+    400574: curve 3 2
+    400576: curve 3 20
+    400578: curve 3 21
+    400580: curve 3 22
+    400582: curve 3 23
+    400584: curve 3 24
+    400586: curve 3 25
+    400588: curve 3 26
+    400590: curve 3 27
+    400592: curve 3 28
+    400594: curve 3 29
+    400596: curve 3 3
+    400598: curve 3 30
+    400600: curve 3 31
+    400602: curve 3 32
+    400604: curve 3 33
+    400606: curve 3 34
+    400608: curve 3 35
+    400610: curve 3 36
+    400612: curve 3 37
+    400614: curve 3 38
+    400616: curve 3 39
+    400618: curve 3 4
+    400620: curve 3 40
+    400622: curve 3 41
+    400624: curve 3 42
+    400626: curve 3 43
+    400628: curve 3 44
+    400630: curve 3 5
+    400632: curve 3 6
+    400634: curve 3 7
+    400636: curve 3 8
+    400638: curve 3 9
+    400640: curve 4
+    400642: curve 4 1
+    400644: curve 4 10
+    400646: curve 4 11
+    400648: curve 4 12
+    400650: curve 4 13
+    400652: curve 4 14
+    400654: curve 4 15
+    400656: curve 4 16
+    400658: curve 4 17
+    400660: curve 4 18
+    400662: curve 4 19
+    400664: curve 4 2
+    400666: curve 4 20
+    400668: curve 4 21
+    400670: curve 4 22
+    400672: curve 4 23
+    400674: curve 4 24
+    400676: curve 4 25
+    400678: curve 4 26
+    400680: curve 4 27
+    400682: curve 4 28
+    400684: curve 4 29
+    400686: curve 4 3
+    400688: curve 4 30
+    400690: curve 4 31
+    400692: curve 4 32
+    400694: curve 4 33
+    400696: curve 4 34
+    400698: curve 4 35
+    400700: curve 4 36
+    400702: curve 4 37
+    400704: curve 4 38
+    400706: curve 4 39
+    400708: curve 4 4
+    400710: curve 4 40
+    400712: curve 4 41
+    400714: curve 4 42
+    400716: curve 4 43
+    400718: curve 4 44
+    400720: curve 4 5
+    400722: curve 4 6
+    400724: curve 4 7
+    400726: curve 4 8
+    400728: curve 4 9
+    400730: curve 5
+    400732: curve 5 1
+    400734: curve 5 10
+    400736: curve 5 11
+    400738: curve 5 12
+    400740: curve 5 13
+    400742: curve 5 14
+    400744: curve 5 15
+    400746: curve 5 16
+    400748: curve 5 17
+    400750: curve 5 18
+    400752: curve 5 19
+    400754: curve 5 2
+    400756: curve 5 20
+    400758: curve 5 21
+    400760: curve 5 22
+    400762: curve 5 23
+    400764: curve 5 24
+    400766: curve 5 25
+    400768: curve 5 26
+    400770: curve 5 27
+    400772: curve 5 28
+    400774: curve 5 29
+    400776: curve 5 3
+    400778: curve 5 30
+    400780: curve 5 31
+    400782: curve 5 32
+    400784: curve 5 33
+    400786: curve 5 34
+    400788: curve 5 35
+    400790: curve 5 36
+    400792: curve 5 37
+    400794: curve 5 38
+    400796: curve 5 39
+    400798: curve 5 4
+    400800: curve 5 40
+    400802: curve 5 41
+    400804: curve 5 42
+    400806: curve 5 43
+    400808: curve 5 44
+    400810: curve 5 5
+    400812: curve 5 6
+    400814: curve 5 7
+    400816: curve 5 8
+    400818: curve 5 9
+    400820: curve 6
+    400822: curve 6 1
+    400824: curve 6 10
+    400826: curve 6 11
+    400828: curve 6 12
+    400830: curve 6 13
+    400832: curve 6 14
+    400834: curve 6 15
+    400836: curve 6 16
+    400838: curve 6 17
+    400840: curve 6 18
+    400842: curve 6 19
+    400844: curve 6 2
+    400846: curve 6 20
+    400848: curve 6 21
+    400850: curve 6 22
+    400852: curve 6 23
+    400854: curve 6 24
+    400856: curve 6 25
+    400858: curve 6 26
+    400860: curve 6 27
+    400862: curve 6 28
+    400864: curve 6 29
+    400866: curve 6 3
+    400868: curve 6 30
+    400870: curve 6 31
+    400872: curve 6 32
+    400874: curve 6 33
+    400876: curve 6 34
+    400878: curve 6 35
+    400880: curve 6 36
+    400882: curve 6 37
+    400884: curve 6 38
+    400886: curve 6 39
+    400888: curve 6 4
+    400890: curve 6 40
+    400892: curve 6 41
+    400894: curve 6 42
+    400896: curve 6 43
+    400898: curve 6 44
+    400900: curve 6 5
+    400902: curve 6 6
+    400904: curve 6 7
+    400906: curve 6 8
+    400908: curve 6 9
+    400910: curve 7
+    400912: curve 7 1
+    400914: curve 7 10
+    400916: curve 7 11
+    400918: curve 7 12
+    400920: curve 7 13
+    400922: curve 7 14
+    400924: curve 7 15
+    400926: curve 7 16
+    400928: curve 7 17
+    400930: curve 7 18
+    400932: curve 7 19
+    400934: curve 7 2
+    400936: curve 7 20
+    400938: curve 7 21
+    400940: curve 7 22
+    400942: curve 7 23
+    400944: curve 7 24
+    400946: curve 7 25
+    400948: curve 7 26
+    400950: curve 7 27
+    400952: curve 7 28
+    400954: curve 7 29
+    400956: curve 7 3
+    400958: curve 7 30
+    400960: curve 7 31
+    400962: curve 7 32
+    400964: curve 7 33
+    400966: curve 7 34
+    400968: curve 7 35
+    400970: curve 7 4
+    400972: curve 7 5
+    400974: curve 7 6
+    400976: curve 7 7
+    400978: curve 7 8
+    400980: curve 7 9
+    400982: Default Camera
+    400984: Default Camera marker
+    400986: Default Camera up
+    400988: Distant Light
+    400990: Distant Light (1)
+    400992: Environment
+    400994: pipe
+    400996: //RootNode
+    400998: Subentity
+    401000: Subentity 1
+    401002: Subentity 10
+    401004: Subentity 100
+    401006: Subentity 101
+    401008: Subentity 102
+    401010: Subentity 103
+    401012: Subentity 104
+    401014: Subentity 105
+    401016: Subentity 106
+    401018: Subentity 107
+    401020: Subentity 108
+    401022: Subentity 109
+    401024: Subentity 11
+    401026: Subentity 110
+    401028: Subentity 111
+    401030: Subentity 112
+    401032: Subentity 113
+    401034: Subentity 12
+    401036: Subentity 13
+    401038: Subentity 14
+    401040: Subentity 15
+    401042: Subentity 16
+    401044: Subentity 17
+    401046: Subentity 18
+    401048: Subentity 19
+    401050: Subentity 2
+    401052: Subentity 20
+    401054: Subentity 21
+    401056: Subentity 22
+    401058: Subentity 23
+    401060: Subentity 24
+    401062: Subentity 25
+    401064: Subentity 26
+    401066: Subentity 27
+    401068: Subentity 28
+    401070: Subentity 29
+    401072: Subentity 3
+    401074: Subentity 30
+    401076: Subentity 31
+    401078: Subentity 32
+    401080: Subentity 33
+    401082: Subentity 34
+    401084: Subentity 35
+    401086: Subentity 36
+    401088: Subentity 37
+    401090: Subentity 38
+    401092: Subentity 39
+    401094: Subentity 4
+    401096: Subentity 40
+    401098: Subentity 41
+    401100: Subentity 42
+    401102: Subentity 43
+    401104: Subentity 44
+    401106: Subentity 45
+    401108: Subentity 46
+    401110: Subentity 47
+    401112: Subentity 48
+    401114: Subentity 49
+    401116: Subentity 5
+    401118: Subentity 50
+    401120: Subentity 51
+    401122: Subentity 52
+    401124: Subentity 53
+    401126: Subentity 54
+    401128: Subentity 55
+    401130: Subentity 56
+    401132: Subentity 57
+    401134: Subentity 58
+    401136: Subentity 59
+    401138: Subentity 6
+    401140: Subentity 60
+    401142: Subentity 61
+    401144: Subentity 62
+    401146: Subentity 63
+    401148: Subentity 64
+    401150: Subentity 65
+    401152: Subentity 66
+    401154: Subentity 67
+    401156: Subentity 68
+    401158: Subentity 69
+    401160: Subentity 7
+    401162: Subentity 70
+    401164: Subentity 71
+    401166: Subentity 72
+    401168: Subentity 73
+    401170: Subentity 74
+    401172: Subentity 75
+    401174: Subentity 76
+    401176: Subentity 77
+    401178: Subentity 78
+    401180: Subentity 79
+    401182: Subentity 8
+    401184: Subentity 80
+    401186: Subentity 81
+    401188: Subentity 82
+    401190: Subentity 83
+    401192: Subentity 84
+    401194: Subentity 85
+    401196: Subentity 86
+    401198: Subentity 87
+    401200: Subentity 88
+    401202: Subentity 89
+    401204: Subentity 9
+    401206: Subentity 90
+    401208: Subentity 91
+    401210: Subentity 92
+    401212: Subentity 93
+    401214: Subentity 94
+    401216: Subentity 95
+    401218: Subentity 96
+    401220: Subentity 97
+    401222: Subentity 98
+    401224: Subentity 99
+    401226: valves
+    2000000: Default Camera
+    2100000: AutoCAD Color Index 252
+    2100002: AutoCAD Color Index 5
+    2300000: ACPPPIPE
+    2300002: ACPPPIPE 1
+    2300004: ACPPPIPE 10
+    2300006: ACPPPIPE 11
+    2300008: ACPPPIPE 12
+    2300010: ACPPPIPE 13
+    2300012: ACPPPIPE 14
+    2300014: ACPPPIPE 15
+    2300016: ACPPPIPE 16
+    2300018: ACPPPIPE 17
+    2300020: ACPPPIPE 18
+    2300022: ACPPPIPE 2
+    2300024: ACPPPIPE 3
+    2300026: ACPPPIPE 4
+    2300028: ACPPPIPE 5
+    2300030: ACPPPIPE 6
+    2300032: ACPPPIPE 7
+    2300034: ACPPPIPE 8
+    2300036: ACPPPIPE 9
+    2300038: ACPPPIPEINLINEASSET
+    2300040: ACPPPIPEINLINEASSET 1
+    2300042: ACPPPIPEINLINEASSET 10
+    2300044: ACPPPIPEINLINEASSET 11
+    2300046: ACPPPIPEINLINEASSET 12
+    2300048: ACPPPIPEINLINEASSET 13
+    2300050: ACPPPIPEINLINEASSET 14
+    2300052: ACPPPIPEINLINEASSET 15
+    2300054: ACPPPIPEINLINEASSET 16
+    2300056: ACPPPIPEINLINEASSET 17
+    2300058: ACPPPIPEINLINEASSET 18
+    2300060: ACPPPIPEINLINEASSET 19
+    2300062: ACPPPIPEINLINEASSET 2
+    2300064: ACPPPIPEINLINEASSET 20
+    2300066: ACPPPIPEINLINEASSET 21
+    2300068: ACPPPIPEINLINEASSET 22
+    2300070: ACPPPIPEINLINEASSET 23
+    2300072: ACPPPIPEINLINEASSET 24
+    2300074: ACPPPIPEINLINEASSET 25
+    2300076: ACPPPIPEINLINEASSET 26
+    2300078: ACPPPIPEINLINEASSET 27
+    2300080: ACPPPIPEINLINEASSET 28
+    2300082: ACPPPIPEINLINEASSET 29
+    2300084: ACPPPIPEINLINEASSET 3
+    2300086: ACPPPIPEINLINEASSET 30
+    2300088: ACPPPIPEINLINEASSET 31
+    2300090: ACPPPIPEINLINEASSET 32
+    2300092: ACPPPIPEINLINEASSET 33
+    2300094: ACPPPIPEINLINEASSET 34
+    2300096: ACPPPIPEINLINEASSET 35
+    2300098: ACPPPIPEINLINEASSET 36
+    2300100: ACPPPIPEINLINEASSET 37
+    2300102: ACPPPIPEINLINEASSET 38
+    2300104: ACPPPIPEINLINEASSET 4
+    2300106: ACPPPIPEINLINEASSET 5
+    2300108: ACPPPIPEINLINEASSET 6
+    2300110: ACPPPIPEINLINEASSET 7
+    2300112: ACPPPIPEINLINEASSET 8
+    2300114: ACPPPIPEINLINEASSET 9
+    2300116: Subentity 106
+    2300118: Subentity 109
+    2300120: Subentity 16
+    2300122: Subentity 41
+    2300124: Subentity 42
+    2300126: Subentity 5
+    2300128: Subentity 6
+    2300130: Subentity 62
+    2300132: Subentity 83
+    2300134: Subentity 85
+    2300136: Subentity 9
+    2300138: Subentity 94
+    3300000: ACPPPIPE
+    3300002: ACPPPIPE 1
+    3300004: ACPPPIPE 10
+    3300006: ACPPPIPE 11
+    3300008: ACPPPIPE 12
+    3300010: ACPPPIPE 13
+    3300012: ACPPPIPE 14
+    3300014: ACPPPIPE 15
+    3300016: ACPPPIPE 16
+    3300018: ACPPPIPE 17
+    3300020: ACPPPIPE 18
+    3300022: ACPPPIPE 2
+    3300024: ACPPPIPE 3
+    3300026: ACPPPIPE 4
+    3300028: ACPPPIPE 5
+    3300030: ACPPPIPE 6
+    3300032: ACPPPIPE 7
+    3300034: ACPPPIPE 8
+    3300036: ACPPPIPE 9
+    3300038: ACPPPIPEINLINEASSET
+    3300040: ACPPPIPEINLINEASSET 1
+    3300042: ACPPPIPEINLINEASSET 10
+    3300044: ACPPPIPEINLINEASSET 11
+    3300046: ACPPPIPEINLINEASSET 12
+    3300048: ACPPPIPEINLINEASSET 13
+    3300050: ACPPPIPEINLINEASSET 14
+    3300052: ACPPPIPEINLINEASSET 15
+    3300054: ACPPPIPEINLINEASSET 16
+    3300056: ACPPPIPEINLINEASSET 17
+    3300058: ACPPPIPEINLINEASSET 18
+    3300060: ACPPPIPEINLINEASSET 19
+    3300062: ACPPPIPEINLINEASSET 2
+    3300064: ACPPPIPEINLINEASSET 20
+    3300066: ACPPPIPEINLINEASSET 21
+    3300068: ACPPPIPEINLINEASSET 22
+    3300070: ACPPPIPEINLINEASSET 23
+    3300072: ACPPPIPEINLINEASSET 24
+    3300074: ACPPPIPEINLINEASSET 25
+    3300076: ACPPPIPEINLINEASSET 26
+    3300078: ACPPPIPEINLINEASSET 27
+    3300080: ACPPPIPEINLINEASSET 28
+    3300082: ACPPPIPEINLINEASSET 29
+    3300084: ACPPPIPEINLINEASSET 3
+    3300086: ACPPPIPEINLINEASSET 30
+    3300088: ACPPPIPEINLINEASSET 31
+    3300090: ACPPPIPEINLINEASSET 32
+    3300092: ACPPPIPEINLINEASSET 33
+    3300094: ACPPPIPEINLINEASSET 34
+    3300096: ACPPPIPEINLINEASSET 35
+    3300098: ACPPPIPEINLINEASSET 36
+    3300100: ACPPPIPEINLINEASSET 37
+    3300102: ACPPPIPEINLINEASSET 38
+    3300104: ACPPPIPEINLINEASSET 4
+    3300106: ACPPPIPEINLINEASSET 5
+    3300108: ACPPPIPEINLINEASSET 6
+    3300110: ACPPPIPEINLINEASSET 7
+    3300112: ACPPPIPEINLINEASSET 8
+    3300114: ACPPPIPEINLINEASSET 9
+    3300116: Subentity 106
+    3300118: Subentity 109
+    3300120: Subentity 16
+    3300122: Subentity 41
+    3300124: Subentity 42
+    3300126: Subentity 5
+    3300128: Subentity 6
+    3300130: Subentity 62
+    3300132: Subentity 83
+    3300134: Subentity 85
+    3300136: Subentity 9
+    3300138: Subentity 94
+    4300000: ACPPPIPE
+    4300002: ACPPPIPE
+    4300004: Subentity
+    4300006: ACPPPIPEINLINEASSET
+    4300008: Subentity
+    4300010: ACPPPIPEINLINEASSET
+    4300012: Subentity
+    4300014: ACPPPIPEINLINEASSET
+    4300016: ACPPPIPE
+    4300018: ACPPPIPEINLINEASSET
+    4300020: ACPPPIPEINLINEASSET
+    4300022: ACPPPIPE
+    4300024: ACPPPIPEINLINEASSET
+    4300026: ACPPPIPEINLINEASSET
+    4300028: Subentity
+    4300030: ACPPPIPE
+    4300032: ACPPPIPEINLINEASSET
+    4300034: ACPPPIPEINLINEASSET
+    4300036: Subentity
+    4300038: ACPPPIPEINLINEASSET
+    4300040: ACPPPIPE
+    4300042: ACPPPIPE
+    4300044: ACPPPIPEINLINEASSET
+    4300046: ACPPPIPE
+    4300048: Subentity
+    4300050: ACPPPIPE
+    4300052: ACPPPIPEINLINEASSET
+    4300054: ACPPPIPEINLINEASSET
+    4300056: Subentity
+    4300058: ACPPPIPEINLINEASSET
+    4300060: ACPPPIPEINLINEASSET
+    4300062: ACPPPIPEINLINEASSET
+    4300064: ACPPPIPEINLINEASSET
+    4300066: ACPPPIPEINLINEASSET
+    4300068: ACPPPIPEINLINEASSET
+    4300070: Subentity
+    4300072: ACPPPIPEINLINEASSET
+    4300074: ACPPPIPEINLINEASSET
+    4300076: ACPPPIPE
+    4300078: ACPPPIPEINLINEASSET
+    4300080: ACPPPIPE
+    4300082: ACPPPIPEINLINEASSET
+    4300084: ACPPPIPE
+    4300086: ACPPPIPE
+    4300088: ACPPPIPEINLINEASSET
+    4300090: ACPPPIPE
+    4300092: ACPPPIPEINLINEASSET
+    4300094: ACPPPIPEINLINEASSET
+    4300096: Subentity
+    4300098: ACPPPIPEINLINEASSET
+    4300100: ACPPPIPE
+    4300102: ACPPPIPEINLINEASSET
+    4300104: ACPPPIPE
+    4300106: ACPPPIPEINLINEASSET
+    4300108: ACPPPIPE
+    4300110: ACPPPIPEINLINEASSET
+    4300112: ACPPPIPE
+    4300114: Subentity
+    4300116: ACPPPIPEINLINEASSET
+    4300118: ACPPPIPEINLINEASSET
+    4300120: ACPPPIPE
+    4300122: Subentity
+    4300124: ACPPPIPEINLINEASSET
+    4300126: Subentity
+    4300128: ACPPPIPEINLINEASSET
+    4300130: ACPPPIPEINLINEASSET
+    4300132: ACPPPIPEINLINEASSET
+    4300134: ACPPPIPEINLINEASSET
+    4300136: ACPPPIPEINLINEASSET
+    4300138: ACPPPIPEINLINEASSET
+    6000828045688606266: Default Camera
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
